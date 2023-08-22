@@ -324,7 +324,7 @@ MonoBehaviour:
     version: 0.3
     useExternal: 0
     data:
-      partName: SPT-100
+      partName: SPT100
       author: Schlosrat
       category: 8
       family: 

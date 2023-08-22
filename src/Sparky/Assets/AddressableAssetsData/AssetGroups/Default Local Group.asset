@@ -22,10 +22,34 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 1bf6a0c087a8d184293d1a180dcefd8e
-    m_Address: Assets/SPT100.json
+    m_Address: SPT100.json
     m_ReadOnly: 0
     m_SerializedLabels:
     - parts_data
+  - m_GUID: 90a22d1e85c7b3f4fa8561b8fa0da282
+    m_Address: SPT100_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3c1cdf9c01915c47802fdca17869857
+    m_Address: Anode.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 59b4fa344cac7f54cbab5f0d8c3485c1
+    m_Address: Ceramic.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 70c4e79b76c50c741a78db69e8cfd14d
+    m_Address: Dull Steel.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b865d7c3dffa5d645a7701aa87024d45
+    m_Address: Shiny Steel.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 987780c10f9a3204290c0fc59ad1130b
+    m_Address: Windings.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 64140a66ad2537c418a62272ea78f871, type: 2}
   m_SchemaSet:
