@@ -17,37 +17,69 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: eae16b88e892fcd4f85757ee3fe64fc2
   m_SerializeEntries:
-  - m_GUID: ddefd46fa90bebd47839a8cd9d184375
-    m_Address: SPT100.prefab
+  - m_GUID: b2bdda34ce2455145b0bae609613a37a
+    m_Address: spark_spt100.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 1bf6a0c087a8d184293d1a180dcefd8e
-    m_Address: SPT100.json
+  - m_GUID: 790b638b8b8bf8b49a5fc79175726b1e
+    m_Address: spark_x4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4b265ac1fcc28a64096e5c56b76e0dda
+    m_Address: spark_x3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45bc4435294358548bdfd9e7b311b89d
+    m_Address: spark_x3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4a6d4a78775df134bb30f12146636de9
+    m_Address: spark_x3.json
     m_ReadOnly: 0
     m_SerializedLabels:
     - parts_data
-  - m_GUID: 90a22d1e85c7b3f4fa8561b8fa0da282
-    m_Address: SPT100_icon.png
+  - m_GUID: 2929a3869cb92944abf6e985e13c7f36
+    m_Address: spark_spt100.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: fa689677b24f78f4f81798c4144fef84
+    m_Address: spark_x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: cd8ee3c17c54c93408226928bba3dfd4
+    m_Address: spark_x2.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: c3c1cdf9c01915c47802fdca17869857
-    m_Address: Anode.mat
+  - m_GUID: b55e5026c1e3607478997ee726ba7418
+    m_Address: spark_x2_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 59b4fa344cac7f54cbab5f0d8c3485c1
-    m_Address: Ceramic.mat
+  - m_GUID: d884e360bae92c84d9df00e93929afec
+    m_Address: spark_x4.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 70c4e79b76c50c741a78db69e8cfd14d
-    m_Address: Dull Steel.mat
+  - m_GUID: a9b4b210282e89342b2aa30850bb3d18
+    m_Address: spark_x4.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 5cb2c861d5f530b48b6f1456e8948b57
+    m_Address: spark_spt100_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: b865d7c3dffa5d645a7701aa87024d45
-    m_Address: Shiny Steel.mat
+  - m_GUID: d7e5b63fa60095644b443cdf3f8040e3
+    m_Address: spark_ds4g1.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: 987780c10f9a3204290c0fc59ad1130b
-    m_Address: Windings.mat
+  - m_GUID: 108f80b6a36137846acd2d14768d124d
+    m_Address: spark_ds4g1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 15c6c212cf1492d478c88d89424d4108
+    m_Address: spark_ds4g1_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
