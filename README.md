@@ -12,7 +12,7 @@ High ISP engines for your low-thrust needs
 * Optional, but highly recommended: [Kesa Solar](https://spacedock.info/mod/3453/Kesa%20Solar) 1.0.3+
 * Optional, but highly recommended: [Lux's OAB Extensions](https://spacedock.info/mod/3354/Lux's%20OAB%20Extensions%20(LOABE)) 1.0.0+
 
-**Source Code:** [GitHub Repo](https://github.com/schlosrat/SPARK)
+**SpaceDock:** [SPARK Technologies](https://spacedock.info/mod/3470/SPARK%20Technologies)
 
 **Forum Thread:** [Forum Thread](https://forum.kerbalspaceprogram.com/topic/219596-stellar-plasma-assisted-rocket-kinetics-spark-technologies-010/)
 
