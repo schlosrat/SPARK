@@ -47,6 +47,14 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+# Unity temp files and other dross
+/PackageCache/
+UnityTempFile*
+src/TNO/Assets/KSP2UnityTools
+src/TNO/Library
+src/TNO/Logs
+src/TNO/Packages
+
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
