@@ -1,0 +1,26 @@
+Key,Type,Desc,English
+,,,
+Parts/Title/spark_spt100,Text,,SPT-100
+Parts/Subtitle/spark_spt100,Text,,Hall Effect Thruster
+Parts/Manufacturer/spark_spt100,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_spt100,Text,,"If you need a really small (tiny! 0.3125m-class) low thrust/high ISP electric engine, then the SPT-100 is the part to pick. Weighing in at a mere 0.075t, it's one of the smallest engines you can find anywhere, yet it delivers a whopping 0.3 kN of thrust with an incredible 2,200s of Isp."
+,,,
+Parts/Title/spark_x2,Text,,X2 NHT
+Parts/Subtitle/spark_x2,Text,,Two-Channel Nested Hall Effect Thruster
+Parts/Manufacturer/spark_x2,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_x2,Text,,"What's better than a Hall Effect Thruster? A Nested Hall Thruster! Why settle for just one chamber when you can have two with a modest increase in size, weight, and power consumption! The SPARK X2 packs terrific thrust and high Isp into an Extra Small (0.625m-class) package without needing as much power as a small town just to operate."
+,,,
+Parts/Title/spark_ds4g1,Text,,DS4G-1
+Parts/Subtitle/spark_ds4g1,Text,,Dual-Stage Four-Grid Ion Thruster
+Parts/Manufacturer/spark_ds4g1,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_ds4g1,Text,,"Other gridded ion engines may have just two or three grids, but why stop there? The DS4G-1 has four grids, and knows how to use 'em! On the plus side, it delivers best-in-class Isp with superb thrust (for an ion engine). On the minus side it requires a staggering amount of power... Get it? Minus side? Electrons? Why are you not laughing?"
+,,,
+Parts/Title/spark_x3,Text,,X3 NHT
+Parts/Subtitle/spark_x3,Text,,Three-Channel Nested Hall Effect Thruster
+Parts/Manufacturer/spark_x3,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_x3,Text,,"Seeing what they can do with two nested thrusters, the engineers at SPARK Technologies decided to one-up themselves and go for three! Turns out, this required moving up a size category to Small (1.25m-class), but that didn't stop them. The SPARK X3 delivers high Isp along with nearly 2 kN of thrust! However, it does need a lot of power..."
+,,,
+Parts/Title/spark_x4,Text,,X4 NHT
+Parts/Subtitle/spark_x4,Text,,Four-Channel Nested Hall Effect Thruster
+Parts/Manufacturer/spark_x4,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_x4,Text,,"The SPARK X4 is the pinnacle in Small (1.25m-class) Nested Hall Thruster ion engines. Seriously, we just couldn't fit any more nested thrusters into an engine this size. Providing best-in-class thrust (for an ion engine) with superb Isp, the X4 can take you far. Just be sure to bring lots of power because it's notoriously hungry..."
