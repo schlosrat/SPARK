@@ -52,4 +52,11 @@
     <type fullname="KSP.Sim.ResourceSystem.ResourceRecipeIngredientDefinitionOverride" preserve="nothing" serialized="true" />
     <type fullname="Vector3d" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="LFO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="LuxsFlamesAndOrnaments.Monobehaviours.LFOThrottleDataMasterGroup" preserve="all" />
+    <type fullname="LFOThrottleData" preserve="all" />
+    <type fullname="LFOVolume" preserve="all" />
+    <type fullname="LuxsFlamesAndOrnaments.Settings.PlumeConfig" preserve="nothing" serialized="true" />
+    <type fullname="LuxsFlamesAndOrnaments.Settings.ShaderConfig" preserve="nothing" serialized="true" />
+  </assembly>
 </linker>

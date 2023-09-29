@@ -10,11 +10,6 @@ Parts/Subtitle/spark_x2,Text,,Two-Channel Nested Hall Effect Thruster
 Parts/Manufacturer/spark_x2,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
 Parts/Description/spark_x2,Text,,"What's better than a Hall Effect Thruster? A Nested Hall Thruster! Why settle for just one chamber when you can have two with a modest increase in size, weight, and power consumption! The SPARK X2 packs terrific thrust and high Isp into an Extra Small (0.625m-class) package without needing as much power as a small town just to operate."
 ,,,
-Parts/Title/spark_ds4g1,Text,,DS4G-1
-Parts/Subtitle/spark_ds4g1,Text,,Dual-Stage Four-Grid Ion Thruster
-Parts/Manufacturer/spark_ds4g1,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
-Parts/Description/spark_ds4g1,Text,,"Other gridded ion engines may have just two or three grids, but why stop there? The DS4G-1 has four grids, and knows how to use 'em! On the plus side, it delivers best-in-class Isp with superb thrust (for an ion engine). On the minus side it requires a staggering amount of power... Get it? Minus side? Electrons? Why are you not laughing?"
-,,,
 Parts/Title/spark_x3,Text,,X3 NHT
 Parts/Subtitle/spark_x3,Text,,Three-Channel Nested Hall Effect Thruster
 Parts/Manufacturer/spark_x3,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
@@ -24,3 +19,13 @@ Parts/Title/spark_x4,Text,,X4 NHT
 Parts/Subtitle/spark_x4,Text,,Four-Channel Nested Hall Effect Thruster
 Parts/Manufacturer/spark_x4,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
 Parts/Description/spark_x4,Text,,"The SPARK X4 is the pinnacle in Small (1.25m-class) Nested Hall Thruster ion engines. Seriously, we just couldn't fit any more nested thrusters into an engine this size. Providing best-in-class thrust (for an ion engine) with superb Isp, the X4 can take you far. Just be sure to bring lots of power because it's notoriously hungry..."
+,,,
+Parts/Title/spark_ds4g1,Text,,DS4G-1
+Parts/Subtitle/spark_ds4g1,Text,,Dual-Stage Four-Grid Ion Thruster
+Parts/Manufacturer/spark_ds4g1,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_ds4g1,Text,,"Other gridded ion engines may have just two or three grids, but why stop there? The DS4G-1 has four grids, and knows how to use 'em! On the plus side, it delivers best-in-class Isp with superb thrust (for an ion engine). On the minus side, it requires a staggering amount of power... Get it? Minus side? Electrons? Why are you not laughing?"
+,,,
+Parts/Title/spark_mpd_xs,Text,,MPD-1
+Parts/Subtitle/spark_mpd_xs,Text,,Magnetoplasmadynamic Thruster
+Parts/Manufacturer/spark_mpd_xs,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_mpd_xs,Text,,"The MPD-1 started out as a proof of concept Lorenz Force Accelerator in a Plasma Physics lab where an aspiring graduate assistant noticed that it kept nudging the coffee table to the left whenever Dr Kasperov Kerman ran his experimental aparatus. How it found its way from there to the SPARK Technologies factory is an ongoing mystery."
