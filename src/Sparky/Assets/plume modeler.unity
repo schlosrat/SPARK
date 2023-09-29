@@ -315,7 +315,7 @@ Material:
     - _OcclusionStrength: 1
     - _Opacity: 1
     - _Parallax: 0.02
-    - _Resolution: 0
+    - _Resolution: 2
     - _ResolutionMultiplier: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -411,7 +411,7 @@ Material:
     - _DstBlend: 0
     - _EndPosition: 0.471
     - _ExpansionDensityInvMultiplier: 1
-    - _Falloff: 0.5
+    - _Falloff: 1
     - _FalloffStart: 0
     - _FalloffStartPosition: 0
     - _Fresnel: 5
@@ -498,7 +498,7 @@ Transform:
   m_GameObject: {fileID: 685860605}
   m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.04, y: 0.04, z: 0.040000003}
+  m_LocalScale: {x: 0.05, y: 0.05, z: 0.040000003}
   m_Children: []
   m_Father: {fileID: 8302401853441410543}
   m_RootOrder: 0
@@ -528,7 +528,7 @@ MonoBehaviour:
   m_Script: {fileID: -1044837857, guid: 16940194ea781b4408cc9ca3020e3969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seed: 0.80276877
+  Seed: 0.41915977
   renderer: {fileID: 685860610}
   config:
     meshPath: Flames
@@ -536,7 +536,7 @@ MonoBehaviour:
     ShaderSettings:
       ShaderName: LFO/Additive
     Position: {x: 0, y: 0, z: 0}
-    Scale: {x: 0.04, y: 0.04, z: 0.040000003}
+    Scale: {x: 0.05, y: 0.05, z: 0.040000003}
     Rotation: {x: -0, y: 180, z: 180}
     FloatParams:
     - ParamName: _Opacity
@@ -1268,7 +1268,7 @@ MonoBehaviour:
   m_Script: {fileID: -1044837857, guid: 16940194ea781b4408cc9ca3020e3969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seed: 0.4389716
+  Seed: 0.5254492
   renderer: {fileID: 1375136803}
   config:
     meshPath: Cube
@@ -1924,7 +1924,7 @@ Material:
     - _OcclusionStrength: 1
     - _Opacity: 0
     - _Parallax: 0.02
-    - _Resolution: 0
+    - _Resolution: 2
     - _ResolutionMultiplier: 1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -2042,7 +2042,7 @@ Material:
     - _RadialFalloff: 1
     - _RadialFalloffPosition: 0.9
     - _Radius: 0.1
-    - _Resolution: 0
+    - _Resolution: 2
     - _ResolutionMultiplier: 1
     - _SaturateColor: 1
     - _SmoothnessTextureChannel: 0
@@ -5377,7 +5377,7 @@ MonoBehaviour:
   m_Script: {fileID: -1044837857, guid: 16940194ea781b4408cc9ca3020e3969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seed: 0.80276877
+  Seed: 0.31118023
   renderer: {fileID: 5743324179380580450}
   config:
     meshPath: Flames
@@ -6372,7 +6372,7 @@ MonoBehaviour:
   - {fileID: 685860608}
   OverrideControls: 0
   Active: 1
-  GroupThrottle: 0
+  GroupThrottle: 100
   GroupAtmo: 0
 --- !u!4 &7727645604115373411
 Transform:
