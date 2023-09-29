@@ -82,6 +82,19 @@ MonoBehaviour:
     m_Address: spark_ds4g1_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: becfec7f481ef9449b87fe88154d0d7f
+    m_Address: spark_mpd_xs.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e8adf9c0bbe4fd9468138e2a5d9668f8
+    m_Address: spark_mpd_xs.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 5b21e6e24f1651a4f92e885dedd8b081
+    m_Address: spark_mpd_xs_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 64140a66ad2537c418a62272ea78f871, type: 2}
   m_SchemaSet:
