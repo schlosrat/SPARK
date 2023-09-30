@@ -16,24 +16,25 @@
               "a": 1.0
             },
             "_NoiseTex": "fx-katniss-noise-1-blurred",
-            "_Fresnel": 5.0,
+            "_Fresnel": 1.0,
+            "_StartFadeIn": 0.0,
             "_LinearExpansion": 0.03
           }
         },
         "Position": {
           "x": 0.0,
           "y": 0.0,
-          "z": 0.0
+          "z": 0.06
         },
         "Scale": {
-          "x": 0.05,
-          "y": 0.05,
-          "z": 0.0400000028
+          "x": 0.03,
+          "y": 0.03,
+          "z": 0.06
         },
         "Rotation": {
-          "x": 0.0,
+          "x": -1.70754756E-05,
           "y": 180.0,
-          "z": 180.0
+          "z": 0.0
         },
         "FloatParams": [
           {

@@ -82,7 +82,7 @@ MonoBehaviour:
     m_Address: spark_ds4g1_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-  - m_GUID: becfec7f481ef9449b87fe88154d0d7f
+  - m_GUID: d5f2f9c05fe7e5d49a32413c4bcdb3e9
     m_Address: spark_mpd_xs.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []

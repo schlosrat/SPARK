@@ -416,10 +416,10 @@
                         },
                         {
                           "time": 1.0,
-                          "value": 100.0,
-                          "inTangent": -2299.99756,
-                          "outTangent": -2299.99756,
-                          "inWeight": 0.333333343,
+                          "value": 22.0,
+                          "inTangent": -413.6872,
+                          "outTangent": -413.6872,
+                          "inWeight": 0.23999995,
                           "outWeight": 0.333333343,
                           "weightedMode": "None",
                           "tangentMode": 0

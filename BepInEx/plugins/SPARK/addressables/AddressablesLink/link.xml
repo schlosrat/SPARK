@@ -30,12 +30,14 @@
     <type fullname="KSP.CorePartData" preserve="all" />
     <type fullname="KSP.Modules.Module_Drag" preserve="all" />
     <type fullname="KSP.Modules.Module_Engine" preserve="all" />
+    <type fullname="KSP.Modules.Module_Gimbal" preserve="all" />
     <type fullname="KSP.VFX.ThrottleVFXManager" preserve="all" />
     <type fullname="FloatCurve" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Color" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Drag" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Engine" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Engine/EngineMode" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_Gimbal" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.PropellantDefinition" preserve="nothing" serialized="true" />
     <type fullname="KSP.OAB.MirrorTechnique" preserve="nothing" serialized="true" />
     <type fullname="KSP.OAB.OABEditorPartCategory" preserve="nothing" serialized="true" />

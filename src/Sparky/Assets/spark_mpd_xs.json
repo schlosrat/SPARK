@@ -137,7 +137,7 @@
         "MultiJointFullBreakStrength": false,
         "position": {
           "x": 0.0,
-          "y": -0.5,
+          "y": -0.65,
           "z": 0.0
         },
         "orientation": {
@@ -416,10 +416,10 @@
                         },
                         {
                           "time": 1.0,
-                          "value": 100.0,
-                          "inTangent": -2299.99756,
-                          "outTangent": -2299.99756,
-                          "inWeight": 0.333333343,
+                          "value": 26.0,
+                          "inTangent": -485.182526,
+                          "outTangent": -485.182526,
+                          "inWeight": 0.244999945,
                           "outWeight": 0.333333343,
                           "weightedMode": "None",
                           "tangentMode": 0
@@ -641,6 +641,69 @@
               "State": "Off",
               "IsOperational": false,
               "DataType": "KSP.Modules.Data_Engine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Gimbal",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Gimbal",
+            "ModuleType": "KSP.Modules.Module_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Gimbal, Assembly-CSharp",
+              "isEnabled": {
+                "ContextKey": "isEnabled",
+                "storedValue": true
+              },
+              "gimbalLimiter": {
+                "ContextKey": "gimbalLimiter",
+                "storedValue": 100.0
+              },
+              "enablePitch": {
+                "ContextKey": "enablePitch",
+                "storedValue": true
+              },
+              "enableYaw": {
+                "ContextKey": "enableYaw",
+                "storedValue": true
+              },
+              "enableRoll": {
+                "ContextKey": "enableRoll",
+                "storedValue": true
+              },
+              "IsAdvancedSettingsShown": {
+                "ContextKey": "IsAdvancedSettingsShown",
+                "storedValue": false
+              },
+              "gimbalTransformName": "gimbal",
+              "forceProceduralGimbaling": false,
+              "gimbalRange": 1.0,
+              "gimbalResponseSpeed": 10.0,
+              "useGimbalResponseSpeed": true,
+              "gimbalRangeXP": -1.0,
+              "gimbalRangeXN": -1.0,
+              "gimbalRangeYP": -1.0,
+              "gimbalRangeYN": -1.0,
+              "minRollOffset": 0.1,
+              "xMult": 1.0,
+              "yMult": 1.0,
+              "pitchValueName": "fPitch",
+              "flipAnimatedPitchAxis": false,
+              "yawValueName": "fYaw",
+              "flipAnimatedYawAxis": false,
+              "movementAudioThreshold": 0.1,
+              "ModuleType": "KSP.Modules.Module_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "IsActiveInStagingProp": {
                 "ContextKey": null,
                 "storedValue": false
