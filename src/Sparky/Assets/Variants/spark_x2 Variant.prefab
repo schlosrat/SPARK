@@ -78,13 +78,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490105375}
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 5.350001}
-  m_LocalScale: {x: 5.2999983, y: 10.599997, z: 5.2999983}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0.7071068, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 4.8}
+  m_LocalScale: {x: 4.8, y: 9.6, z: 4.8}
   m_Children: []
   m_Father: {fileID: 585118061}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 180}
 --- !u!33 &1490105379
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -166,12 +166,126 @@ MonoBehaviour:
     targetGameObject: X2 Plume
     ShaderSettings:
       ShaderName: LFO/Volumetric (Profiled)
-    Position: {x: 0, y: 0, z: 5.350001}
-    Scale: {x: 5.2999983, y: 10.599997, z: 5.2999983}
+    Position: {x: 0, y: 0, z: 4.8}
+    Scale: {x: 4.8, y: 9.6, z: 4.8}
     Rotation: {x: 90, y: 180, z: 0}
     FloatParams:
     - ParamName: _Opacity
       ParamHash: 377
+      UseAtmoCurve: 0
+      AtmoCurveType: 0
+      AtmoMultiplierCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+      UseThrottleCurve: 1
+      ThrottleCurveType: 1
+      ThrottleMultiplierCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      isDirty: 0
+      Value: 1
+    - ParamName: _Noise
+      ParamHash: 0
+      UseAtmoCurve: 0
+      AtmoCurveType: 0
+      AtmoMultiplierCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+      UseThrottleCurve: 1
+      ThrottleCurveType: 1
+      ThrottleMultiplierCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      isDirty: 0
+      Value: 1
+    - ParamName: _Lengthwise Brightness
+      ParamHash: 0
+      UseAtmoCurve: 0
+      AtmoCurveType: 0
+      AtmoMultiplierCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 0
+        m_PostInfinity: 0
+        m_RotationOrder: 0
+      UseThrottleCurve: 1
+      ThrottleCurveType: 1
+      ThrottleMultiplierCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      isDirty: 0
+      Value: 1
+    - ParamName: _Falloff
+      ParamHash: 0
       UseAtmoCurve: 0
       AtmoCurveType: 0
       AtmoMultiplierCurve:
@@ -236,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9202951815523222216, guid: cd8ee3c17c54c93408226928bba3dfd4, type: 3}
       propertyPath: m_Name
-      value: spark_x2
+      value: spark_x2 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 9202951815523222217, guid: cd8ee3c17c54c93408226928bba3dfd4, type: 3}
       propertyPath: m_RootOrder

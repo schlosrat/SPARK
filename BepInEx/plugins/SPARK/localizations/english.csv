@@ -1,5 +1,10 @@
 Key,Type,Desc,English
 ,,,
+VAB/PartsPicker/0072-Argon,Text,,Argon
+VAB/PartsPicker/0074-Lithium,Text,,Lithium
+VAB/PartsPicker/0142-Argon,Text,,Argon
+VAB/PartsPicker/0144-Lithium,Text,,Lithium
+,,,
 Parts/Title/spark_spt100,Text,,SPT-100
 Parts/Subtitle/spark_spt100,Text,,Hall Effect Thruster
 Parts/Manufacturer/spark_spt100,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
@@ -28,4 +33,119 @@ Parts/Description/spark_ds4g1,Text,,"Other gridded ion engines may have just two
 Parts/Title/spark_mpd_xs,Text,,MPD-1
 Parts/Subtitle/spark_mpd_xs,Text,,Magnetoplasmadynamic Thruster
 Parts/Manufacturer/spark_mpd_xs,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
-Parts/Description/spark_mpd_xs,Text,,"The MPD-1 started out as a proof of concept Lorenz Force Accelerator in a Plasma Physics lab where an aspiring graduate assistant noticed that it kept nudging the coffee table to the left whenever Dr Kasperov Kerman ran his experimental aparatus. How it found its way from there to the SPARK Technologies factory is an ongoing mystery."
+Parts/Description/spark_mpd_xs,Text,,"The MPD-1 started out as a proof of concept Lorenz Force Accelerator in a Plasma Physics lab where an aspiring graduate assistant noticed that it kept nudging the coffee table to the left whenever Dr. Kasperov Kerman ran his experimental apparatus. How it found its way from there to the SPARK Technologies factory is an ongoing mystery."
+,,,
+Parts/Title/spark_mpd_sm,Text,,MPD-2
+Parts/Subtitle/spark_mpd_sm,Text,,Magnetoplasmadynamic Thruster
+Parts/Manufacturer/spark_mpd_sm,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_mpd_sm,Text,,"If you're looking for an ion engine with some serious thrust, then look no further! This little engine produces an impressive 96.4 kN at full throttle only demanding 1000 EC/s (and a trickle of lithium vapor) in return. There are chemical engines this size that produce less thrust! Of course they don't need a fission power system to run..."
+,,,
+Parts/Title/spark_mpd_sm_v2,Text,,MPD-2
+Parts/Subtitle/spark_mpd_sm_v2,Text,,Magnetoplasmadynamic Thruster
+Parts/Manufacturer/spark_mpd_sm_v2,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_mpd_sm_v2,Text,,"If you're looking for an ion engine with some serious thrust, then look no further! This little engine produces an impressive 96.4 kN at full throttle only demanding 1000 EC/s (and a trickle of lithium vapor) in return. There are chemical engines this size that produce less thrust! Of course they don't need a fission power system to run..."
+,,,
+Parts/Title/spark_mpd_md,Text,,MPD-3
+Parts/Subtitle/spark_mpd_md,Text,,Magnetoplasmadynamic Thruster
+Parts/Manufacturer/spark_mpd_md,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_mpd_md,Text,,"The MPD-3 is the pinnacle of high thrust ion engines. Topping the chart at a whopping 242.2 kN of thrust, you'll be going places fast with this engine behind you! You may need as much power as a small metropolis to get there, but hey - that's just the cost of playing!"
+,,,
+Parts/Title/spark_mpd_md_v2,Text,,MPD-3
+Parts/Subtitle/spark_mpd_md_v2,Text,,Magnetoplasmadynamic Thruster
+Parts/Manufacturer/spark_mpd_md_v2,Text,,Stellar Plasma-Assisted Rocket Kinetics (SPARK) Technologies
+Parts/Description/spark_mpd_md_v2,Text,,"The MPD-3a is the pinnacle of high thrust ion engines. Topping the chart at a whopping 242.2 kN of thrust, you'll be going places fast with this engine behind you! You may need as much power as a small metropolis to get there, but hey - that's just the cost of playing!"
+,,,
+Parts/Title/spark_0v_inline_argon_1x1,Text,,AT-XS-05
+Parts/Subtitle/spark_0v_inline_argon_1x1,Text,,Inline Argon Tank - 0.05t capacity
+Parts/Manufacturer/spark_0v_inline_argon_1x1,Text,,Tanks for the Memories
+Parts/Description/spark_0v_inline_argon_1x1,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_0v_inline_argon_1x2,Text,,AT-XS-10
+Parts/Subtitle/spark_0v_inline_argon_1x2,Text,,Inline Argon Tank - 0.1t capacity
+Parts/Manufacturer/spark_0v_inline_argon_1x2,Text,,Tanks for the Memories
+Parts/Description/spark_0v_inline_argon_1x2,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_0v_inline_argon_1x4,Text,,AT-XS-20
+Parts/Subtitle/spark_0v_inline_argon_1x4,Text,,Inline Argon Tank - 0.2t capacity
+Parts/Manufacturer/spark_0v_inline_argon_1x4,Text,,Tanks for the Memories
+Parts/Description/spark_0v_inline_argon_1x4,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_1v_inline_argon_1x1,Text,,AT-XS-05
+Parts/Subtitle/spark_1v_inline_argon_1x1,Text,,Inline Argon Tank - 0.6t capacity
+Parts/Manufacturer/spark_1v_inline_argon_1x1,Text,,Tanks for the Memories
+Parts/Description/spark_1v_inline_argon_1x1,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_1v_inline_argon_1x2,Text,,AT-SM-10
+Parts/Subtitle/spark_1v_inline_argon_1x2,Text,,Inline Argon Tank - 1.1t capacity
+Parts/Manufacturer/spark_1v_inline_argon_1x2,Text,,Tanks for the Memories
+Parts/Description/spark_1v_inline_argon_1x2,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_1v_inline_argon_1x4,Text,,AT-SM-20
+Parts/Subtitle/spark_1v_inline_argon_1x4,Text,,Inline Argon Tank - 2.3t capacity
+Parts/Manufacturer/spark_1v_inline_argon_1x4,Text,,Tanks for the Memories
+Parts/Description/spark_1v_inline_argon_1x4,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_2v_inline_argon_1x1,Text,,AT-MD-05
+Parts/Subtitle/spark_2v_inline_argon_1x1,Text,,Inline Argon Tank - 4.6t capacity
+Parts/Manufacturer/spark_2v_inline_argon_1x1,Text,,Tanks for the Memories
+Parts/Description/spark_2v_inline_argon_1x1,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_2v_inline_argon_1x2,Text,,AT-MD-10
+Parts/Subtitle/spark_2v_inline_argon_1x2,Text,,Inline Argon Tank - 9.1t capacity
+Parts/Manufacturer/spark_2v_inline_argon_1x2,Text,,Tanks for the Memories
+Parts/Description/spark_2v_inline_argon_1x2,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_2v_inline_argon_1x4,Text,,AT-MD-20
+Parts/Subtitle/spark_2v_inline_argon_1x4,Text,,Inline Argon Tank - 18.3t capacity
+Parts/Manufacturer/spark_2v_inline_argon_1x4,Text,,Tanks for the Memories
+Parts/Description/spark_2v_inline_argon_1x4,Text,,"Cobbled together from spares leftover from a competitor's product, this handy tank will supply argon gas for your ion engine. If filled with Helium it can also be a lot of fun at parties, but your Isp is gonna suffer..."
+,,,
+Parts/Title/spark_0v_inline_lithium_1x1,Text,,LT-XS-05
+Parts/Subtitle/spark_0v_inline_lithium_1x1,Text,,Inline Lithium Tank - 0.05t capacity
+Parts/Manufacturer/spark_0v_inline_lithium_1x1,Text,,Tanks for the Memories
+Parts/Description/spark_0v_inline_lithium_1x1,Text,,"A handy little 'tank' designed to hold ingots of metallic Lithium. It's really more like an over engineered cubby box than a tank, but it can deliver a caustic vapor suitable for use in magnetoplasmadynamic thrusters. The vapor can also be used to rid your house of unwanted pests."
+,,,
+Parts/Title/spark_0v_inline_lithium_1x2,Text,,LT-XS-10
+Parts/Subtitle/spark_0v_inline_lithium_1x2,Text,,Inline Lithium Tank - 0.10t capacity
+Parts/Manufacturer/spark_0v_inline_lithium_1x2,Text,,Tanks for the Memories
+Parts/Description/spark_0v_inline_lithium_1x2,Text,,"A slightly larger 'tank' with twice as many lithium ingot cubbies for even more storage versatility. While the doors do look like they might be water tight, it's probably best that you avoid submerging it."
+,,,
+Parts/Title/spark_0v_inline_lithium_1x4,Text,,LT-XS-20
+Parts/Subtitle/spark_0v_inline_lithium_1x4,Text,,Inline Lithium Tank - 0.20t capacity
+Parts/Manufacturer/spark_0v_inline_lithium_1x4,Text,,Tanks for the Memories
+Parts/Description/spark_0v_inline_lithium_1x4,Text,,"The LT-XS-20 (AKA Tall Boy) provides even more lithium ingot cubbies for double the capacity over the LT-XS-10. With this much lithium on board you're fairly sure a small probe could get to the Mun and back, provided it's got an engine suitable for using lithium."
+,,,
+Parts/Title/spark_0v_radial_lithium,Text,,LTR-XS-05
+Parts/Subtitle/spark_0v_radial_lithium,Text,,Radial Lithium Tank - 0.05t capacity
+Parts/Manufacturer/spark_0v_radial_lithium,Text,,Tanks for the Memories
+Parts/Description/spark_0v_radial_lithium,Text,,"A clever radial variant of the popular LT-XS-05, this 'tank' hold ingots of metallic Lithium provided they've been properly rotated by 90 degrees. Does not float."
+,,,
+Parts/Title/spark_1v_inline_lithium_1x1,Text,,LT-SM-60
+Parts/Subtitle/spark_1v_inline_lithium_1x1,Text,,Inline Lithium Tank - 0.05t capacity
+Parts/Manufacturer/spark_1v_inline_lithium_1x1,Text,,Tanks for the Memories
+Parts/Description/spark_1v_inline_lithium_1x1,Text,,"A handy little 'tank' designed to hold ingots of metallic Lithium. It's really more like an over engineered cubby box than a tank, but it can deliver as a caustic vapor suitable for use in magnetoplasmadynamic thrusters. The vapor can also be used to rid your house of unwanted pests."
+,,,
+Parts/Title/spark_1v_inline_lithium_1x2,Text,,LT-SM-120
+Parts/Subtitle/spark_1v_inline_lithium_1x2,Text,,Inline Lithium Tank - 0.10t capacity
+Parts/Manufacturer/spark_1v_inline_lithium_1x2,Text,,Tanks for the Memories
+Parts/Description/spark_1v_inline_lithium_1x2,Text,,"A slightly larger 'tank' with twice as many lithium ingot cubbies for even more storage versatility. While the doors do look like they might be water tight, it's probably best that you avoid submerging it."
+,,,
+Parts/Title/spark_1v_inline_lithium_1x4,Text,,LT-SM-240
+Parts/Subtitle/spark_1v_inline_lithium_1x4,Text,,Inline Lithium Tank - 0.20t capacity
+Parts/Manufacturer/spark_1v_inline_lithium_1x4,Text,,Tanks for the Memories
+Parts/Description/spark_1v_inline_lithium_1x4,Text,,"The LT-XS-20 (AKA Tall Boy) provides even more lithium ingot cubbies for double the capacity over the LT-XS-10. With this much lithium on board you're fairly sure a small probe could get to the Mun and back, provided it's got an engine suitable for using lithium."
+,,,
+Parts/Title/spark_2v_inline_lithium_1x1,Text,,LT-MD-470
+Parts/Subtitle/spark_2v_inline_lithium_1x1,Text,,Inline Lithium Tank - 0.05t capacity
+Parts/Manufacturer/spark_2v_inline_lithium_1x1,Text,,Tanks for the Memories
+Parts/Description/spark_2v_inline_lithium_1x1,Text,,"A handy little 'tank' designed to hold ingots of metallic Lithium. It's really more like an over engineered cubby box than a tank, but it can deliver as a caustic vapor suitable for use in magnetoplasmadynamic thrusters. The vapor can also be used to rid your house of unwanted pests."
+,,,
+Parts/Title/spark_2v_inline_lithium_1x2,Text,,LT-MD-940
+Parts/Subtitle/spark_2v_inline_lithium_1x2,Text,,Inline Lithium Tank - 0.10t capacity
+Parts/Manufacturer/spark_2v_inline_lithium_1x2,Text,,Tanks for the Memories
+Parts/Description/spark_2v_inline_lithium_1x2,Text,,"A slightly larger 'tank' with twice as many lithium ingot cubbies for even more storage versatility. While the doors do look like they might be water tight, it's probably best that you avoid submerging it."
+,,,
+Parts/Title/spark_2v_inline_lithium_1x4,Text,,LT-MD-1880
+Parts/Subtitle/spark_2v_inline_lithium_1x4,Text,,Inline Lithium Tank - 0.20t capacity
+Parts/Manufacturer/spark_2v_inline_lithium_1x4,Text,,Tanks for the Memories
+Parts/Description/spark_2v_inline_lithium_1x4,Text,,"The LT-XS-20 (AKA Tall Boy) provides even more lithium ingot cubbies for double the capacity over the LT-XS-10. With this much lithium on board you're fairly sure a small probe could get to the Mun and back, provided it's got an engine suitable for using lithium."

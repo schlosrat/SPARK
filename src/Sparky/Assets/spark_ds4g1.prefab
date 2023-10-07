@@ -939,7 +939,7 @@ MonoBehaviour:
     useExternal: 0
     data:
       partName: spark_ds4g1
-      author: Schlosrat
+      author: schlosrat
       category: 8
       family: 0140-Xenon
       childStageOffset: 0
@@ -1724,7 +1724,7 @@ MonoBehaviour:
   m_Script: {fileID: -1044837857, guid: 16940194ea781b4408cc9ca3020e3969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seed: 0.057333805
+  Seed: 0.8942103
   renderer: {fileID: 6041084536807616287}
   config:
     meshPath: 

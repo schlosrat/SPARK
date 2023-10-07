@@ -112,7 +112,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e90ef5db126e44f4f80b132658892f8f, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -159,16 +159,16 @@ MonoBehaviour:
   m_Script: {fileID: -1044837857, guid: 16940194ea781b4408cc9ca3020e3969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Seed: 0.18572333
+  Seed: 0.9248956
   renderer: {fileID: 2008566320}
   config:
-    meshPath: 
-    targetGameObject: 
+    meshPath: Cube
+    targetGameObject: SPT100 Plume
     ShaderSettings:
-      ShaderName: 
-    Position: {x: 0, y: 0, z: 0}
-    Scale: {x: 1, y: 1, z: 1}
-    Rotation: {x: 0, y: 0, z: 0}
+      ShaderName: LFO/Volumetric (Profiled)
+    Position: {x: 0, y: 0, z: 0.20397463}
+    Scale: {x: 0.19999996, y: 0.39999992, z: 0.19999996}
+    Rotation: {x: 90, y: 180, z: 0}
     FloatParams:
     - ParamName: _Opacity
       ParamHash: 377
@@ -246,7 +246,7 @@ MonoBehaviour:
         m_RotationOrder: 0
       isDirty: 0
       Value: 1
-    - ParamName: _LengthwiseBrightness
+    - ParamName: _Lengthwise Brightness
       ParamHash: 377
       UseAtmoCurve: 0
       AtmoCurveType: 0
