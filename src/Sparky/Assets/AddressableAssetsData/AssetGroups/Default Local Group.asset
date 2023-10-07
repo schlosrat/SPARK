@@ -78,7 +78,7 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - parts_data
-  - m_GUID: 15c6c212cf1492d478c88d89424d4108
+  - m_GUID: a7c46dc51865b904babc8f9a5605601c
     m_Address: spark_ds4g1_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
@@ -93,6 +93,97 @@ MonoBehaviour:
     - parts_data
   - m_GUID: 5b21e6e24f1651a4f92e885dedd8b081
     m_Address: spark_mpd_xs_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 377667875f8e94042a83144bd3aff78a
+    m_Address: spark_0v_inline_argon_1x1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3d5eff7f53606a3449fdcc9eb5cdbb77
+    m_Address: spark_0v_inline_argon_1x1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fccf3f04ec075444e8d3501fbc834543
+    m_Address: spark_0v_inline_lithium_1x2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63857523ab01d204fae10b8155086f84
+    m_Address: spark_0v_inline_lithium_1x1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 09990b35d2609984faf3d60bd094800c
+    m_Address: spark_0v_inline_lithium_1x1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 8ac54ca40ca306943ba8c943e0a4425a
+    m_Address: spark_0v_inline_argon_1x1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 9ae3dba5b07c15c45863c3482ca8972b
+    m_Address: spark_0v_inline_lithium_1x2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0b42f391c4af4ba46a35c7358b1a2f67
+    m_Address: spark_0v_inline_lithium_1x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 9cf35af8be6586249a5abc8a0a28f9db
+    m_Address: spark_0v_inline_lithium_1x4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2a39d81300507aa48855e272071faf2f
+    m_Address: spark_0v_inline_lithium_1x4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3486c7dbe16043a4ea5a55535583926f
+    m_Address: spark_0v_inline_lithium_1x4.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 877d2e258b0d0b647926bfae1ddfbfe3
+    m_Address: spark_0v_inline_lithium_1x1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 351660d521055b64397cffb4ac5b872c
+    m_Address: spark_0v_radial_lithium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e61657cbab14126429aa2174b78b2ff6
+    m_Address: spark_0v_radial_lithium.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: cefa042454af4e0499f57bb7a1883057
+    m_Address: spark_0v_radial_lithium_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10b58a7c4463b7e449703500a44d2534
+    m_Address: spark_mpd_md_v2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9779b11caf97ef48a017b7aea5fe013
+    m_Address: spark_mpd_md_v2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 35ee9c7b090dcfc4f9ac323d901a37d4
+    m_Address: spark_mpd_md_v2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd5a1818c64d7844a8a5b48506b2bcea
+    m_Address: spark_mpd_sm_v2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 69902d5e93ece9d4eb7c089d67f9fc1d
+    m_Address: spark_mpd_sm_v2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 108a376800517264d8729c6de40752ad
+    m_Address: spark_mpd_sm_v2_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
