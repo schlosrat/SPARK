@@ -26,11 +26,12 @@
   </assembly>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="KSP.VFX.FlameoutVFXData" preserve="all" />
+    <type fullname="KSP.Modules.Module_Gimbal" preserve="all" />
     <type fullname="KSP.Modules.Module_Color" preserve="all" />
+    <type fullname="KSP.Modules.Module_ResourceCapacities" preserve="all" />
     <type fullname="KSP.CorePartData" preserve="all" />
     <type fullname="KSP.Modules.Module_Drag" preserve="all" />
     <type fullname="KSP.Modules.Module_Engine" preserve="all" />
-    <type fullname="KSP.Modules.Module_Gimbal" preserve="all" />
     <type fullname="KSP.VFX.ThrottleVFXManager" preserve="all" />
     <type fullname="FloatCurve" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Color" preserve="nothing" serialized="true" />
@@ -38,6 +39,7 @@
     <type fullname="KSP.Modules.Data_Engine" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Engine/EngineMode" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.Data_Gimbal" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Modules.Data_ResourceCapacities" preserve="nothing" serialized="true" />
     <type fullname="KSP.Modules.PropellantDefinition" preserve="nothing" serialized="true" />
     <type fullname="KSP.OAB.MirrorTechnique" preserve="nothing" serialized="true" />
     <type fullname="KSP.OAB.OABEditorPartCategory" preserve="nothing" serialized="true" />
@@ -50,6 +52,7 @@
     <type fullname="KSP.Sim.Definitions.SerializedModuleData" preserve="nothing" serialized="true" />
     <type fullname="KSP.Sim.Definitions.SerializedPartModule" preserve="nothing" serialized="true" />
     <type fullname="KSP.Sim.Definitions.SerializedResourceInfo" preserve="nothing" serialized="true" />
+    <type fullname="KSP.Sim.ResourceSystem.ContainedResourceDefinition" preserve="nothing" serialized="true" />
     <type fullname="KSP.Sim.ResourceSystem.ResourceFlowRequestHandle" preserve="nothing" serialized="true" />
     <type fullname="KSP.Sim.ResourceSystem.ResourceRecipeIngredientDefinitionOverride" preserve="nothing" serialized="true" />
     <type fullname="Vector3d" preserve="nothing" serialized="true" />
