@@ -7,7 +7,7 @@
       "dependencies": {
         "com.unity.scriptablebuildpipeline": "1.16.1"
       },
-      "hash": "29b405d2536bf249b5b4bd34df97a07c22e64a8f"
+      "hash": "a82ac84b7a7a8a522b858ea202a365b6a137db51"
     },
     "com.unity.addressables": {
       "version": "1.18.19",
