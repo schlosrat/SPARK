@@ -62,6 +62,7 @@ src/Sparky/Library
 src/Sparky/Logs
 src/Sparky/Packages
 src/Sparky/Temp
+*.bundle
 
 # Unity3D generated meta files
 *.pidb.meta
