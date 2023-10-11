@@ -120,32 +120,37 @@ Parts/Subtitle/spark_0v_radial_lithium,Text,,Radial Lithium Tank - 0.05t capacit
 Parts/Manufacturer/spark_0v_radial_lithium,Text,,Tanks for the Memories
 Parts/Description/spark_0v_radial_lithium,Text,,"A clever radial variant of the popular LT-XS-05, this 'tank' holds ingots of metallic Lithium provided they've been properly rotated by 90 degrees. Does not float."
 ,,,
-Parts/Title/spark_1v_inline_lithium_1x1,Text,,LT-SM-60
-Parts/Subtitle/spark_1v_inline_lithium_1x1,Text,,Inline Lithium Tank - 0.05t capacity
+Parts/Title/spark_1v_inline_lithium_1x1,Text,,LT-SM-060
+Parts/Subtitle/spark_1v_inline_lithium_1x1,Text,,Inline Lithium Tank - 0.6t capacity
 Parts/Manufacturer/spark_1v_inline_lithium_1x1,Text,,Tanks for the Memories
 Parts/Description/spark_1v_inline_lithium_1x1,Text,,"A handy little 'tank' designed to hold ingots of metallic Lithium. It's really more like an over engineered cubby box than a tank, but it can deliver as a caustic vapor suitable for use in magnetoplasmadynamic thrusters. The vapor can also be used to rid your house of unwanted pests."
 ,,,
 Parts/Title/spark_1v_inline_lithium_1x2,Text,,LT-SM-120
-Parts/Subtitle/spark_1v_inline_lithium_1x2,Text,,Inline Lithium Tank - 0.10t capacity
+Parts/Subtitle/spark_1v_inline_lithium_1x2,Text,,Inline Lithium Tank - 1.2t capacity
 Parts/Manufacturer/spark_1v_inline_lithium_1x2,Text,,Tanks for the Memories
 Parts/Description/spark_1v_inline_lithium_1x2,Text,,"A slightly larger 'tank' with twice as many lithium ingot cubbies for even more storage versatility. While the doors do look like they might be water tight, it's probably best that you avoid submerging it."
 ,,,
 Parts/Title/spark_1v_inline_lithium_1x4,Text,,LT-SM-240
-Parts/Subtitle/spark_1v_inline_lithium_1x4,Text,,Inline Lithium Tank - 0.20t capacity
+Parts/Subtitle/spark_1v_inline_lithium_1x4,Text,,Inline Lithium Tank - 2.4t capacity
 Parts/Manufacturer/spark_1v_inline_lithium_1x4,Text,,Tanks for the Memories
 Parts/Description/spark_1v_inline_lithium_1x4,Text,,"The LT-XS-20 (AKA Tall Boy) provides even more lithium ingot cubbies for double the capacity over the LT-XS-10. With this much lithium on board you're fairly sure a small probe could get to the Mun and back, provided it's got an engine suitable for using lithium."
 ,,,
+Parts/Title/spark_1v_radial_lithium,Text,,LTR-SM-050
+Parts/Subtitle/spark_1v_radial_lithium,Text,,Radial Lithium Tank - 0.5t capacity
+Parts/Manufacturer/spark_1v_radial_lithium,Text,,Tanks for the Memories
+Parts/Description/spark_1v_radial_lithium,Text,,"A clever radial variant of the popular LT-SM-60, this 'tank' holds ingots of metallic Lithium provided they've been properly rotated by 90 degrees. Does not float."
+,,,
 Parts/Title/spark_2v_inline_lithium_1x1,Text,,LT-MD-470
-Parts/Subtitle/spark_2v_inline_lithium_1x1,Text,,Inline Lithium Tank - 0.05t capacity
+Parts/Subtitle/spark_2v_inline_lithium_1x1,Text,,Inline Lithium Tank - 4.7t capacity
 Parts/Manufacturer/spark_2v_inline_lithium_1x1,Text,,Tanks for the Memories
 Parts/Description/spark_2v_inline_lithium_1x1,Text,,"A handy little 'tank' designed to hold ingots of metallic Lithium. It's really more like an over engineered cubby box than a tank, but it can deliver as a caustic vapor suitable for use in magnetoplasmadynamic thrusters. The vapor can also be used to rid your house of unwanted pests."
 ,,,
 Parts/Title/spark_2v_inline_lithium_1x2,Text,,LT-MD-940
-Parts/Subtitle/spark_2v_inline_lithium_1x2,Text,,Inline Lithium Tank - 0.10t capacity
+Parts/Subtitle/spark_2v_inline_lithium_1x2,Text,,Inline Lithium Tank - 9.4t capacity
 Parts/Manufacturer/spark_2v_inline_lithium_1x2,Text,,Tanks for the Memories
 Parts/Description/spark_2v_inline_lithium_1x2,Text,,"A slightly larger 'tank' with twice as many lithium ingot cubbies for even more storage versatility. While the doors do look like they might be water tight, it's probably best that you avoid submerging it."
 ,,,
 Parts/Title/spark_2v_inline_lithium_1x4,Text,,LT-MD-1880
-Parts/Subtitle/spark_2v_inline_lithium_1x4,Text,,Inline Lithium Tank - 0.20t capacity
+Parts/Subtitle/spark_2v_inline_lithium_1x4,Text,,Inline Lithium Tank - 18.8t capacity
 Parts/Manufacturer/spark_2v_inline_lithium_1x4,Text,,Tanks for the Memories
 Parts/Description/spark_2v_inline_lithium_1x4,Text,,"The LT-XS-20 (AKA Tall Boy) provides even more lithium ingot cubbies for double the capacity over the LT-XS-10. With this much lithium on board you're fairly sure a small probe could get to the Mun and back, provided it's got an engine suitable for using lithium."
