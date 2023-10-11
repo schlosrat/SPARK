@@ -16,7 +16,7 @@
     "resourceCosts": [],
     "tags": "fueltank (ion propellant tank lithium",
     "stagingIconAssetAddress": "",
-    "PartSizeDiameter": 0.0,
+    "PartSizeDiameter": 0.625,
     "angularDrag": 2.0,
     "breakingForce": 15.0,
     "breakingTorque": 15.0,
@@ -136,7 +136,7 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": 0.34,
+          "x": 0.32,
           "y": 0.3225,
           "z": 0.0
         },

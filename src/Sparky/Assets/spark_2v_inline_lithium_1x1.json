@@ -2,7 +2,7 @@
   "version": 0.3,
   "useExternal": false,
   "data": {
-    "partName": "spark_0v_radial_lithium",
+    "partName": "spark_2v_inline_lithium_1x1",
     "author": "schlosrat",
     "category": "FuelTank",
     "family": "0074-Lithium",
@@ -11,12 +11,12 @@
     "crewCapacity": 0,
     "stageOffset": 0,
     "isCompound": false,
-    "sizeCategory": "XS",
+    "sizeCategory": "M",
     "stageType": "None",
     "resourceCosts": [],
     "tags": "fueltank (ion propellant tank lithium",
     "stagingIconAssetAddress": "",
-    "PartSizeDiameter": 0.625,
+    "PartSizeDiameter": 2.5,
     "angularDrag": 2.0,
     "breakingForce": 15.0,
     "breakingTorque": 15.0,
@@ -24,17 +24,17 @@
     "buoyancyUseSine": false,
     "coLiftOffset": {
       "x": 0.0,
-      "y": 0.32,
+      "y": 1.28,
       "z": 0.0
     },
     "coMassOffset": {
       "x": 0.0,
-      "y": 0.32,
+      "y": 1.28,
       "z": 0.0
     },
     "coPressureOffset": {
       "x": 0.0,
-      "y": 0.32,
+      "y": 1.28,
       "z": 0.0
     },
     "coBuoyancy": {
@@ -51,19 +51,79 @@
     "explosionPotential": 0.5,
     "fuelCrossFeed": true,
     "heatConductivity": 0.0,
-    "mass": 0.0171,
+    "mass": 1.5664,
     "maxTemp": 1000.0,
     "attachRules": {
-      "stack": false,
+      "stack": true,
       "srfAttach": true,
-      "allowStack": false,
-      "allowSrfAttach": false,
+      "allowStack": true,
+      "allowSrfAttach": true,
       "allowCollision": false,
       "allowDock": false,
       "allowRotate": false,
       "allowRoot": false
     },
     "attachNodes": [
+      {
+        "nodeID": "top",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 0,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 2.56,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "size": 0,
+        "visualSize": 0.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
+        "nodeID": "bottom",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": false,
+        "MultiJointMaxJoint": 0,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "size": 0,
+        "visualSize": 0.0,
+        "isResourceCrossfeed": true,
+        "isRigid": false,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
       {
         "nodeID": "srfAttach",
         "NodeSymmetryGroupID": "",
@@ -76,12 +136,12 @@
         "SingleJointAxis": "X",
         "MultiJointFullBreakStrength": false,
         "position": {
-          "x": -0.4,
-          "y": 0.3225,
+          "x": 1.28,
+          "y": 1.28,
           "z": 0.0
         },
         "orientation": {
-          "x": -1.0,
+          "x": 1.0,
           "y": 0.0,
           "z": 0.0
         },
@@ -98,8 +158,8 @@
     "resourceContainers": [
       {
         "name": "Xenon",
-        "capacityUnits": 0.0513,
-        "initialUnits": 0.0513,
+        "capacityUnits": 4.6992,
+        "initialUnits": 4.6992,
         "NonStageable": false
       }
     ],
@@ -330,7 +390,7 @@
       "y": 0.0,
       "z": 0.0
     },
-    "Title": "spark_0v_radial_lithium",
+    "Title": "spark_2v_inline_lithium_1x1",
     "Subtitle": null,
     "Manufacturer": null,
     "Description": null

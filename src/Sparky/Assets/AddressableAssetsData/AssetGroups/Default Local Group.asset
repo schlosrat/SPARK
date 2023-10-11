@@ -186,6 +186,71 @@ MonoBehaviour:
     m_Address: spark_mpd_sm_v2_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: d61753c5ca6250145ae573a6440af4bd
+    m_Address: spark_2v_inline_lithium_1x1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 00bcfc4db585e06448763132a37c9fac
+    m_Address: spark_2v_inline_lithium_1x1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c954b950d56f83c469cb10339c3cbb9c
+    m_Address: spark_1v_inline_lithium_1x1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f9d48a2e1fd23eb4dac137fa2ee20977
+    m_Address: spark_1v_inline_lithium_1x1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f6579a2cdb942547b4a2d91fe5eb28d
+    m_Address: spark_2v_inline_lithium_1x1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 37b604eb00435ff43865f9096e7180b4
+    m_Address: spark_1v_inline_lithium_1x1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 074f49ec96305da41b30dde62cc2978a
+    m_Address: spark_1v_inline_lithium_1x2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 305c1f643ccb4574ba2d2b0d886dca76
+    m_Address: spark_1v_inline_lithium_1x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: add3fc897eb8d97488629f3dc5c41ddb
+    m_Address: spark_1v_radial_lithium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 001d61131ee9e0d43ba5d0465033a27e
+    m_Address: spark_1v_radial_lithium.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 3be4000328bbf044a85ddea7e041f1e9
+    m_Address: spark_1v_inline_lithium_1x2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8665ecf645af7f94cbc7246e6f42a83b
+    m_Address: spark_2v_inline_lithium_1x2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f4baf59f1214c341be354924eca333a
+    m_Address: spark_2v_inline_lithium_1x2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d05d5247614998c4380fcbb51be6a07f
+    m_Address: spark_2v_inline_lithium_1x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: 860d9f564a493954fbc894c7c069f8ab
+    m_Address: spark_1v_radial_lithium_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 64140a66ad2537c418a62272ea78f871, type: 2}
   m_SchemaSet:
