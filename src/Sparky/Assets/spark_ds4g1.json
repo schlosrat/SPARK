@@ -3,7 +3,7 @@
   "useExternal": false,
   "data": {
     "partName": "spark_ds4g1",
-    "author": "Schlosrat",
+    "author": "schlosrat",
     "category": "Engine",
     "family": "0140-Xenon",
     "childStageOffset": 0,
@@ -137,7 +137,7 @@
         "MultiJointFullBreakStrength": false,
         "position": {
           "x": 0.0,
-          "y": -0.5,
+          "y": -0.4,
           "z": 0.0
         },
         "orientation": {
@@ -641,6 +641,130 @@
               "State": "Off",
               "IsOperational": false,
               "DataType": "KSP.Modules.Data_Engine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Fairing",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Fairing",
+            "ModuleType": "KSP.Modules.Module_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Fairing, Assembly-CSharp",
+              "FairingEnabled": {
+                "ContextKey": "FairingEnabled",
+                "storedValue": true
+              },
+              "FairingConstructionType": {
+                "ContextKey": "FairingConstructionType",
+                "storedValue": "CUSTOM"
+              },
+              "FloatingNodeEnabled": {
+                "ContextKey": "FloatingNodeEnabled",
+                "storedValue": true
+              },
+              "Length": {
+                "ContextKey": "Length",
+                "storedValue": -1.0
+              },
+              "DeployType": {
+                "ContextKey": "DeployType",
+                "storedValue": "Clamshellx4"
+              },
+              "EjectionForce": {
+                "ContextKey": "EjectionForce",
+                "storedValue": 100.0
+              },
+              "IsStagingEnabled": {
+                "ContextKey": "IsStagingEnabled",
+                "storedValue": true
+              },
+              "IsDeployed": {
+                "ContextKey": "IsDeployed",
+                "storedValue": false
+              },
+              "FloatingNodeSize": 1.0,
+              "FloatingAttachNodeTag": "bottom",
+              "FloatingNodePosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "FloatingNodeDirection": {
+                "x": 0.0,
+                "y": -1.0,
+                "z": 0.0
+              },
+              "FloatingNodeIsMultiJoint": false,
+              "FloatingNodeMultiJointMaxCount": 3,
+              "FloatingNodeMultiJointOffset": 1.0,
+              "FairingNode": "top",
+              "NoseTip": 0.5,
+              "EdgeWarp": 0.02,
+              "AberrantNormalLimit": 45.0,
+              "LocalUpAxis": {
+                "x": 0.0,
+                "y": -1.0,
+                "z": 0.0
+              },
+              "Pivot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BaseModelTransformName": "Base",
+              "CapRadius": 0.375,
+              "BaseRadius": 0.3125,
+              "CloseRadius": 0.375,
+              "MaxRadius": 6.0,
+              "SnapThreshold": 0.25,
+              "CreateShellColliders": false,
+              "NumberOfCollidersPerCrossSection": 12,
+              "MinHeightRadiusRatio": 0.07,
+              "CrossSectionHeightMin": 0.3,
+              "CrossSectionHeightMax": 0.4,
+              "AerodynamicallyShieldContents": false,
+              "ConeSweepRays": 120,
+              "ConeSweepPrecision": 10.0,
+              "AmountOfCollidersPerArc": 1,
+              "ShouldCapOnAutoGenerate": false,
+              "IsCapped": false,
+              "IsShroud": true,
+              "MassAreaRatio": 0.0,
+              "FairingSideCount": 24,
+              "FairingLengthSnapIncrement": 0.125,
+              "FairingRadiusSnapIncrement": 0.125,
+              "FairingSmoothingAngle": 35.0,
+              "FairingThickness": 0.025,
+              "FairingStartHeight": 0.0,
+              "AllowConstructionTypeChange": true,
+              "AllowFloatingNodeChange": true,
+              "DefaultFairingEnabledToggle": true,
+              "DefaultAutoConstruction": true,
+              "DefaultDeployType": "Shroud",
+              "DefaultFloatingNodeState": true,
+              "LengthEditMinimum": 0.0,
+              "LengthEditMaximum": 0.001,
+              "LengthEditDefault": 1.0,
+              "StageToggleDefault": false,
+              "MaxAutoFairingTargetRadius": -1,
+              "MinAutoFairingTargetRadius": -1,
+              "CrossSections": [],
+              "MassModifierAmount": 0.0,
+              "DragCubeIndex": -1,
+              "ModuleType": "KSP.Modules.Module_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "MassModifier": 0.0,
+              "DataType": "KSP.Modules.Data_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
               "IsActiveInStagingProp": {
                 "ContextKey": null,
                 "storedValue": false

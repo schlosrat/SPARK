@@ -1,5 +1,5 @@
 {
-  "partName": "spark_mpd_xs",
+  "partName": "spark_mpd_sm_v2",
   "PlumeConfigs": {
     "Plume": [
       {
@@ -24,15 +24,15 @@
         "Position": {
           "x": 0.0,
           "y": 0.0,
-          "z": -0.0699999854
+          "z": -8.0
         },
         "Scale": {
-          "x": 0.03,
-          "y": 0.03,
-          "z": 0.06
+          "x": 1.25,
+          "y": 1.25,
+          "z": 2.5
         },
         "Rotation": {
-          "x": -1.70754756E-05,
+          "x": 0.0,
           "y": 180.0,
           "z": 0.0
         },

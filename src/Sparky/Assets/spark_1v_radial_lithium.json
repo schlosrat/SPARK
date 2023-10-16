@@ -97,7 +97,7 @@
     ],
     "resourceContainers": [
       {
-        "name": "Xenon",
+        "name": "Lithium",
         "capacityUnits": 0.4699,
         "initialUnits": 0.4699,
         "NonStageable": false

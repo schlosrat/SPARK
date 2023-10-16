@@ -251,6 +251,19 @@ MonoBehaviour:
     m_Address: spark_1v_radial_lithium_icon.png
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 1a7956ae1e5134548846ed5026ff4876
+    m_Address: spark_mpd_xs_v2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 739ee298abfa22e4494b0454ac6cd0b9
+    m_Address: spark_mpd_xs_v2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+  - m_GUID: a045402549673524e9a21a751bfd1556
+    m_Address: spark_mpd_xs_v2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 64140a66ad2537c418a62272ea78f871, type: 2}
   m_SchemaSet:

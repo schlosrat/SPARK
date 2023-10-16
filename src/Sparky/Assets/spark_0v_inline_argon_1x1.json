@@ -157,7 +157,7 @@
     ],
     "resourceContainers": [
       {
-        "name": "Xenon",
+        "name": "Argon",
         "capacityUnits": 0.08,
         "initialUnits": 0.08,
         "NonStageable": false
