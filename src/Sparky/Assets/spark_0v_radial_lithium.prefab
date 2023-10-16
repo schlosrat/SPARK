@@ -563,7 +563,7 @@ MonoBehaviour:
         overrideDragArea: 0
         isCompoundJoint: 0
       resourceContainers:
-      - name: Xenon
+      - name: Lithium
         capacityUnits: 0.0513
         initialUnits: 0.0513
         NonStageable: 0

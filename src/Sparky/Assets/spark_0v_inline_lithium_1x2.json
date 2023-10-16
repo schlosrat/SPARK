@@ -16,7 +16,7 @@
     "resourceCosts": [],
     "tags": "fueltank (ion propellant tank lithium",
     "stagingIconAssetAddress": "",
-    "PartSizeDiameter": 0.0,
+    "PartSizeDiameter": 0.625,
     "angularDrag": 2.0,
     "breakingForce": 15.0,
     "breakingTorque": 15.0,
@@ -157,7 +157,7 @@
     ],
     "resourceContainers": [
       {
-        "name": "Xenon",
+        "name": "Lithium",
         "capacityUnits": 0.1025,
         "initialUnits": 0.1025,
         "NonStageable": false

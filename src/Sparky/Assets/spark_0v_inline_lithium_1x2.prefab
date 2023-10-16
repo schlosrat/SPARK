@@ -547,7 +547,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &7492327902005625851
@@ -802,7 +802,7 @@ MonoBehaviour:
         overrideDragArea: 0
         isCompoundJoint: 0
       resourceContainers:
-      - name: Xenon
+      - name: Lithium
         capacityUnits: 0.1025
         initialUnits: 0.1025
         NonStageable: 0
