@@ -2,8 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
+[Ll]ibrary/
+[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
@@ -62,6 +62,11 @@ src/Sparky/Library
 src/Sparky/Logs
 src/Sparky/Packages
 src/Sparky/Temp
+src/Spark Project/Assets/KSP2UnityTools
+src/Spark Project/Library
+src/Spark Project/Logs
+src/Spark Project/Packages
+src/Spark Project/Temp
 *.bundle
 
 # Unity3D generated meta files

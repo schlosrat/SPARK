@@ -15,8 +15,8 @@ MonoBehaviour:
   FirstLoad: 0
   ShowOnStartup: 1
   GameExecutable: KSP2_x64.exe
-  GamePath: C:\Kerbal Space Program 2 Debug
-  Is64Bit: 0
+  GamePath: C:\Kerbal Space Program 2
+  Is64Bit: 1
   DateTimeFormat: HH:mm:ss:fff
   CreatedDateFormat: MMM/dd HH:mm:ss
   ShowLogWindow: 1
@@ -31,4 +31,4 @@ MonoBehaviour:
   SelectedManifest: {fileID: 0}
   QuickAccessPipelines: []
   QuickAccessManifests: []
-  ImportConfiguration: {fileID: 0}
+  ImportConfiguration: {fileID: 11400000, guid: 19f54bb4f4b1721478b0d3026c97b295, type: 2}

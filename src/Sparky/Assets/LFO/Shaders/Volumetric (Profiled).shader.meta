@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 837c8a36c26aef241bf1a37240ba9ded
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Profile: {fileID: 2800000, guid: 550bbb14689501241850f97768b66082, type: 3}
+  - _NoiseTex: {fileID: 11700000, guid: b016919ffe90be04d9bedcf5abf6713c, type: 2}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: lfo-resources.bundle
+  assetBundleVariant: 

@@ -5,17 +5,17 @@
   "name": "Stellar Plasma-Assisted Rocket Kinetics",
   "description": "High ISP engines for your low thrust needs",
   "source": "https://github.com/schlosrat/SPARK",
-  "version": "0.1.4.1",
+  "version": "0.2.0",
   "version_check": "https://raw.githubusercontent.com/schlosrat/SPARK/main/SPARK/swinfo.json",
   "ksp2_version": {
-    "min": "0.1.4",
+    "min": "0.1.5",
     "max": "*"
   },
   "dependencies": [
     {
       "id": "com.github.x606.spacewarp",
       "version": {
-        "min": "1.4.0",
+        "min": "1.5.2",
         "max": "*"
       }
     },
@@ -23,6 +23,20 @@
       "id": "lfo",
       "version": {
         "min": "0.9.0",
+        "max": "*"
+      }
+    },
+    {
+      "id": "CommunityResources",
+      "version": {
+        "min": "0.1.0",
+        "max": "*"
+      }
+    },
+    {
+      "id": "PatchManager",
+      "version": {
+        "min": "0.3.0",
         "max": "*"
       }
     }

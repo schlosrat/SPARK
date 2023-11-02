@@ -11,12 +11,13 @@ Shader "LFO/Volumetric"
         [Space(20)]
         [Header(Color)]
         [HDR] _ColorHigh ("High", Color) = (1,1,1,1)
-        _ColorHighPosition ("Position", Range(0.001,10)) = 3
+        _ColorHighPosition ("Position", Range(0.002,1)) = 3
         [HDR] _ColorMedium ("Medium", Color) = (1,0,0,1)
-        _ColorMediumPosition ("Position", Range(0.001,9.999)) = .5
+        _ColorMediumPosition ("Position", Range(0.001,0.999)) = .5
         [HDR] _ColorLow ("Low", Color) = (1,0,0,1)
-        _ColorLowPosition ("Position", Range(0,9.998)) = 0
+        _ColorLowPosition ("Position", Range(0,0.998)) = 0
         _ColorOffset ("Falloff", Range(0, 2)) = 1
+        _ColorShift ("Shift", Range(-1, 1)) = 0
         [Toggle] _SaturateColor ("Saturate color?", int) = 1
 
         [Space(20)]
@@ -38,7 +39,7 @@ Shader "LFO/Volumetric"
         [Space(20)]
         [Header(Noise)]
         _Noise ("Contrast", Range(0,2)) = 1
-        [NoScaleOffset]_NoiseTex ("Noise", 3D) = "white" {}
+        [NoScaleOffset] _NoiseTex ("Noise", 3D) = "white" {}
         _NoiseTexTilling ("Tilling", Vector) = (1,1,1,0)
         _Velocity ("Speed", Vector) = (0,1,0,0)
         _ShapeNoiseWeights ("RGBA Weights", Vector) = (1,1,1,1)
@@ -48,21 +49,21 @@ Shader "LFO/Volumetric"
         [Enum(Resolution)] _Resolution ("Resolution", float) = 2
         [PowerSlide(3)] _ResolutionMultiplier ("Resolution Multiplier", Range(0.01, 10)) = 1
         _MinimumResolution ("Minimum Resolution", Range(0, 512)) = 8
-        _DensityLowerThreshold ("Lower threshold", Range(0,9.999)) = 0
-        _DensityUpperThreshold ("Upper threshold", Range(0.001,10)) = 5
-        _DensityLowerClip ("Lower Clip", Range(0,9.999)) = 0
-        _DensityUpperClip ("Upper Clip", Range(0.001,10)) = 5
+        _DensityLowerThreshold ("Lower threshold", Range(0,0.999)) = 0
+        _DensityUpperThreshold ("Upper threshold", Range(0.001,1)) = 1
+        _DensityLowerClip ("Lower Clip", Range(0,0.999)) = 0
+        _DensityUpperClip ("Upper Clip", Range(0.001,1)) = 1
         _DensityMultiplier ("Density multiplier", float) = 1
+        _ExpansionDensityInvMultiplier ("Inverse Expansion multiplier", Range(-2, 2)) = 1
+        [Toggle] _CustomZTest ("Custom ZTest?", int) = 1
     }
     SubShader
     {
         Tags {
             "RenderType"="Transparent"
             "Queue"="Transparent"
-            "IgnoreProjector" = "True"
         }
-        
-        Blend SrcAlpha One, One One
+        Blend SrcAlpha One
         ZWrite Off
         ZTest Always
         Cull Front
@@ -93,7 +94,15 @@ Shader "LFO/Volumetric"
                 float3 viewVector : TEXCOORD5;
             };
 
+            struct fragOutput {
+                fixed4 color : SV_Target;
+                float depth : SV_Depth;
+            };
 
+            
+            float3 position;
+            float3 scale;
+            matrix rotation;
 
             v2f vert (appdata v) {
                 v2f output;
@@ -122,6 +131,7 @@ Shader "LFO/Volumetric"
             float4 _ColorLow;
             float _ColorLowPosition;
             float _ColorOffset;
+            float _ColorShift;
             bool _SaturateColor;
             
             float _Radius;
@@ -151,53 +161,55 @@ Shader "LFO/Volumetric"
             float _DensityUpperThreshold;
             float _DensityLowerClip;
             float _DensityUpperClip;
+            float _ExpansionDensityInvMultiplier;
             
             sampler2D _CameraDepthTexture;
-            float3 boundsMin;
-            float3 boundsMax;
-            float3 scale;
-            float3 rotation;
             float _TimeOffset;
- 
-            // Returns (dstToBox, dstInsideBox). If ray misses box, dstInsideBox will be zero
-            float2 rayBoxDst(float3 boundsMin, float3 boundsMax, float3 rayOrigin, float3 invRaydir) {
-                // Adapted from: http://jcgt.org/published/0007/03/04/
-                // From Sebastian Lague's Clouds
+            bool _CustomZTest;
 
-                float3 t0 = (boundsMin - rayOrigin) * invRaydir;
-                float3 t1 = (boundsMax - rayOrigin) * invRaydir;
-                float3 tmin = min(t0, t1);
-                float3 tmax = max(t0, t1);
+             //to Object Rotate to World (orw)
+            fixed3 orw(fixed3 oPos, int w){
+                return mul(rotation,fixed4(oPos,w)).xyz;
+                }
+
+            bool cube(float3 org, float3 dir, out float near, out float far)
+            {
+                float3 halfScale = scale/2;
+
+            	// compute intersection of ray with all six bbox planes
+            	float3 invR = (1.0/dir);
+            	float3 tbot = invR * (-(halfScale) - org);
+            	float3 ttop = invR * ((halfScale) - org);
+            	
+            	// re-order intersections to find smallest and largest on each axis
+            	float3 tmin = min (ttop, tbot);
+            	float3 tmax = max (ttop, tbot);
+            	
+            	// find the largest tmin and the smallest tmax
+            	float2 t0 = max(tmin.xx, tmin.yz);
+            	near = max(t0.x, t0.y);
+            	t0 = min(tmax.xx, tmax.yz);
+            	far = min(t0.x, t0.y);
                 
-                float dstA = max(max(tmin.x, tmin.y), tmin.z);
-                float dstB = min(tmax.x, min(tmax.y, tmax.z));
-
-                // CASE 1: ray intersects box from outside (0 <= dstA <= dstB)
-                // dstA is dst to nearest intersection, dstB dst to far intersection
-
-                // CASE 2: ray intersects box from inside (dstA < 0 < dstB)
-                // dstA is the dst to intersection behind the ray, dstB is dst to forward intersection
-
-                // CASE 3: ray misses box (dstA > dstB)
-
-                float dstToBox = max(0, dstA);
-                float dstInsideBox = max(0, dstB - dstToBox);
-                return float2(dstToBox, dstInsideBox);
+            	// check for hit
+            	return near < far && far > 0.0;
+            }
+            
+            float remap(float In, float2 InMinMax, float2 OutMinMax)
+            {
+                return OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y - InMinMax.x);
+            }
+            float4 remap(float4 In, float2 InMinMax, float2 OutMinMax)
+            {
+                return OutMinMax.x + (In - InMinMax.x) * (OutMinMax.y - OutMinMax.x) / (InMinMax.y - InMinMax.x);
             }
 
             float SampleDensity(float3 position){
-                fixed3 size = boundsMax - boundsMin;
-                fixed3 boundsCentre = (boundsMin+boundsMax) * .5;
                 fixed3 objectPos = mul(unity_WorldToObject,position);
                 fixed2 objectNormal = normalize(objectPos.xz);
                 fixed yPos = (objectPos.y-.5);
                 fixed radius = _Radius/2;
 
-                fixed3 samplePos = objectPos;
-                fixed3 tiling = _NoiseTexTilling * scale;
-                fixed3 speed = _Velocity/tiling;
-                samplePos.y += (_Time.y + _TimeOffset) * speed.y;
-                samplePos.xz += (_Time.y + _TimeOffset) * speed.xz;
                 
                 //change in position
                 fixed3 extraPos = 0;
@@ -238,12 +250,17 @@ Shader "LFO/Volumetric"
                 //exti earlier to save performance
                 if(mask == 0)
                     return 0;
-
-                //Get all 4 channels of the texture
+                    
+                fixed3 samplePos = objectPos;
+                fixed3 tiling = _NoiseTexTilling * scale;
+                fixed3 speed = _Velocity/tiling;
+                samplePos.y += (_Time.y + _TimeOffset) * speed.y;
+                samplePos.xz += (_Time.z + _TimeOffset) * speed.xz;
                 float4 noise = lerp(.5,_NoiseTex.SampleLevel(sampler_NoiseTex, (samplePos) * tiling, 0),_Noise);
 
                 //Apply noise to mask
                 noise*=mask;
+
 
                 
                 //Get weighted noise
@@ -251,30 +268,38 @@ Shader "LFO/Volumetric"
                 float noiseFBM = dot(noise, normalizedShapeWeights);
 
                 float density = noiseFBM;
-                density = max(density, max(_DensityLowerClip, _DensityLowerThreshold));
+                density = max(density, _DensityLowerClip);
                 density = min(density, _DensityUpperClip);
-                //density = min(density, min(_DensityUpperClip, _DensityUpperThreshold));
-                density *= pow((distanceToRadius - distanceToNewRim)/max(0.001,(radius-newRim)), _RadialFalloff);
+                
+                
+                float extra = (yPos) * _LinearExpansion;
+                extra += (pow(yPos,2)) * _QuadraticExpansion;
 
+                float distanceToRadius2 = length((objectPos).xz) - length(radius * objectNormal) * _ExpansionDensityInvMultiplier;
+
+                //Make density higher (or lower) depending on the distance from the radius
+                if(distanceToRadius2 > 0)
+                {
+                    density = density/(1+distanceToRadius2 * 2);
+                }
+                else{
+                    density = pow(density, 1+abs(distanceToRadius2) * 2);
+                }
+                //if(-extra > 0)
+                //    density -= -extra*_ExpansionDensityInvMultiplier;
+                //Apply falloffs
+                float fadeIn = pow(1-min(max(objectPos.y+.5-(1-_StartPosition), 0),1), _StartFalloff);
+                float fadeOut = pow(min(max(objectPos.y+.5+(1-_EndPosition), 0),1), _Falloff);
+                float fadeRadial = pow(min((distanceToRadius - distanceToNewRim)/max(0.001,(radius-newRim)), 1), _RadialFalloff);
+
+                density = lerp(0, density, fadeIn * fadeOut * fadeRadial);
 
                 if(density < _DensityLowerThreshold)
                     density = min(0, density * (1/density));
 
                 if(density > _DensityUpperThreshold)
                     density = min(0, density * pow(density,2));
-                    
 
-                //Apply falloffs
-                density *= pow(1-min(max(objectPos.y+.5-(1-_StartPosition), 0),1), _StartFalloff);
-                density *= pow(min(max(objectPos.y+.5+(1-_EndPosition), 0),1), _Falloff);
-
-
-                //Make density higher (or lower) depending on the distance from the radius
-                if(length(newPos.xz) > radius)
-                    density += density * -pow(distanceFromRadius,2);
-                else
-                    density += density * pow(distanceFromRadius,2);
-                    
                 //Apply Color's alpha
                 //density *= lerp(_ColorA.a, _ColorB.a, density);
                 density *= _DensityMultiplier;
@@ -286,58 +311,81 @@ Shader "LFO/Volumetric"
                 return mul(unity_WorldToObject, WorldPos);
                 }
 
-            fixed4 frag(v2f i) : SV_Target {
+            fragOutput frag(v2f i) : SV_Target {
+                fragOutput o;
+                o.depth = 0;
+
                 if(_Opacity == 0)
-                    return 0;
+                    discard;
 
-                float3 size = boundsMax - boundsMin;
-                float3 boundsCentre = (boundsMin+boundsMax) * .5;
-                float3 rayPos = _WorldSpaceCameraPos;
+                //return Linear01Depth(SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, i.screenPos.xy/i.screenPos.w));
+                float3 rayPos = _WorldSpaceCameraPos - position;
                 float viewLength = length(i.viewVector);
-                float3 rayDir = normalize(i.worldPos - rayPos);
+                float3 rayDir = normalize(i.worldPos - rayPos - position
+                    );
 
-                float2 rayToContainerInfo = rayBoxDst(boundsMin, boundsMax, rayPos, 1/(rayDir));
-                float dstToBox = rayToContainerInfo.x;
-                float dstInsideBox = rayToContainerInfo.y;
+                float dstToBox = 0;
+                float dstToBoxFar = 0;
+                if(!cube(orw(rayPos, 0), orw(rayDir,0), dstToBox, dstToBoxFar))
+                    return o;
+
+                dstToBox = max(0, dstToBox);
+
+                float dstInsideBox = dstToBoxFar - dstToBox;
+                dstInsideBox = max(0, dstInsideBox);
 
                 // point of intersection with the cloud container
-                float3 entryPoint = rayPos + rayDir * dstToBox;
-                float3 exitPoint = rayPos + rayDir * dstInsideBox;
+                float3 entryPoint = rayPos + position + rayDir * dstToBox;
+                float3 exitPoint = rayPos +position + rayDir * dstInsideBox;
 
                 float dstTravelled = 0;
                 float dstLimit = dstInsideBox;
-
                 int stepCount = (1+_Resolution)*32;
                 stepCount *= _ResolutionMultiplier;
 
                 stepCount = max(_MinimumResolution, stepCount);
-                float stepSize = dstInsideBox/stepCount;
+                float stepSize = dstInsideBox/(stepCount); //Create multiplier for step count to allow for modder customization
+                int failSafeCount = stepCount;
 
                 float density = 0;
-                float2 screeSpaceUV = i.screenPos.xy / i.screenPos.w;
-                float opaqueDepth = SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, screeSpaceUV);
-                float depthSolid = LinearEyeDepth(opaqueDepth) * viewLength;
+                float4 entryClipPos = UnityWorldToClipPos(float4(entryPoint, 0));
+                float4 exitClipPos = UnityWorldToClipPos(float4(exitPoint, 0));
 
-                while(dstTravelled < dstLimit){
-                    //Current position of the ray (given distance travelled)
-                    float3 currentPos = entryPoint + rayDir * dstTravelled;
+                float depth = 1;
+                bool hasDepth = false;
 
-                    fixed3 oPos = mul(unity_WorldToObject, currentPos);
-                    fixed4 clipCurPos = UnityWorldToClipPos(float4(currentPos, 1));
-                    fixed depthCurPos = LinearEyeDepth(clipCurPos.z/clipCurPos.w) * viewLength;
+                const int DEPTH_PROBE_RESOLUTION = 64;
+                float depthValue[DEPTH_PROBE_RESOLUTION];
 
-                    dstTravelled += stepSize;
-
-                    //Custom ZTest to occlude hidden positions
-                    if(depthCurPos >= depthSolid)
-                        continue;
-                       
-                    density += SampleDensity((currentPos - boundsCentre)) * (stepSize / (length(size)/27));
+                for(int i = 1; i <= DEPTH_PROBE_RESOLUTION; i++){
+                    
+                    float4 clipPos = lerp(entryClipPos, exitClipPos, (i-1)/DEPTH_PROBE_RESOLUTION);
+                    float4 screenPos = ComputeScreenPos(clipPos);
+                    float2 uv = screenPos.xy/screenPos.w;
+                    float depthSolid = LinearEyeDepth(SAMPLE_DEPTH_TEXTURE(_CameraDepthTexture, uv));
+                    depthValue[i-1] = depthSolid;
                 }
 
+                while(dstTravelled < dstLimit){
+                    failSafeCount -= 1;
+                    if(failSafeCount < 0)
+                        break;
+                    
+                    float3 currentPos = entryPoint + rayDir * dstTravelled;
+                    dstTravelled += stepSize;
+
+                    float4 clipCurPos = UnityWorldToClipPos(float4(currentPos, 1));
+                    float depthCurPos = LinearEyeDepth(clipCurPos.z/clipCurPos.w);
+                    float depthSolid = depthValue[(dstTravelled/dstLimit) * DEPTH_PROBE_RESOLUTION];
+
+                    if(depthCurPos > depthSolid && _CustomZTest)
+                        continue;
+                    density += SampleDensity(currentPos - position)* (stepSize / (length(scale)/27));
+                    }
+
                 fixed4 col = density;
-                if(density < _ColorLowPosition && !_SaturateColor){
-                    col *= lerp(0, _ColorLow, pow(density/_ColorLowPosition, _ColorOffset));
+                if(density < _ColorLowPosition){
+                    col *= _ColorLow;
                     }
                 else if(density < _ColorMediumPosition){
                     col *= lerp(_ColorLow, _ColorMedium, pow((density - _ColorLowPosition)/(_ColorMediumPosition - _ColorLowPosition), _ColorOffset));
@@ -345,19 +393,17 @@ Shader "LFO/Volumetric"
                 else if(density < _ColorHighPosition){
                     col *= lerp(_ColorMedium, _ColorHigh, pow((density - _ColorMediumPosition)/(_ColorHighPosition-_ColorMediumPosition), _ColorOffset));
                     }
-                else if(!_SaturateColor){
-                    col *= lerp(_ColorHigh, pow(fixed4(_ColorHigh),2), pow(density/_ColorHighPosition, _ColorOffset));
-                    col.a = max(1, col.a);
+                else{
+                    col *= _ColorHigh;
                     }
-
-                col.a = saturate(col.a);
-                //col *= lerp(_ColorB, _ColorA, saturate(pow(density, _ColorOffset)));
 
                 col *= _Brightness;
 
                 col.a *= _Opacity;
+                o.color = col;
+                o.depth = 1;
 
-                return col;
+                return o;
             }
             ENDCG
         }

@@ -115,7 +115,7 @@ MonoBehaviour:
   m_Name: Import Project Settings
   m_EditorClassIdentifier: 
   enabled: 1
-  IncludedSettings: -1
+  IncludedSettings: 0
 --- !u!114 &7309299303439100353
 MonoBehaviour:
   m_ObjectHideFlags: 0
