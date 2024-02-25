@@ -1,0 +1,219 @@
+{
+  "partName": "spark_mpd_md_v2",
+  "PlumeConfigs": {
+    "Plume": [
+      {
+        "meshPath": "Flames",
+        "targetGameObject": "Flames",
+        "ShaderSettings": {
+          "ShaderName": "LFO/Additive",
+          "ShaderParams": {
+            "_Opacity": 0.0,
+            "_Brightness": 1.5,
+            "_EndTint": {
+              "r": 0.0,
+              "g": 0.243137255,
+              "b": 1.0,
+              "a": 1.0
+            },
+            "_Noise": 0.0,
+            "_NoiseTex": "fx-katniss-noise-1-blurred",
+            "_Fresnel": 1.0,
+            "_Falloff": 0.0,
+            "_StartFadeIn": 0.0,
+            "_LinearExpansion": 0.03
+          }
+        },
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Scale": {
+          "x": 1.5,
+          "y": 1.5,
+          "z": 3.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 180.0,
+          "z": 0.0
+        },
+        "FloatParams": [
+          {
+            "Value": 1.0,
+            "ParamName": "_Opacity",
+            "ParamHash": 377,
+            "UseAtmoCurve": false,
+            "AtmoCurveType": "Base",
+            "AtmoMultiplierCurve": {
+              "keys": [],
+              "length": 0,
+              "preWrapMode": "PingPong",
+              "postWrapMode": "PingPong"
+            },
+            "UseThrottleCurve": true,
+            "ThrottleCurveType": "Multiply",
+            "ThrottleMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": "None",
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": "None",
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": "ClampForever",
+              "postWrapMode": "ClampForever"
+            },
+            "isDirty": false
+          },
+          {
+            "Value": 1.0,
+            "ParamName": "_Noise",
+            "ParamHash": 383,
+            "UseAtmoCurve": false,
+            "AtmoCurveType": "Base",
+            "AtmoMultiplierCurve": {
+              "keys": [],
+              "length": 0,
+              "preWrapMode": "PingPong",
+              "postWrapMode": "PingPong"
+            },
+            "UseThrottleCurve": true,
+            "ThrottleCurveType": "Multiply",
+            "ThrottleMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": "None",
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": "None",
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": "ClampForever",
+              "postWrapMode": "ClampForever"
+            },
+            "isDirty": false
+          },
+          {
+            "Value": 1.0,
+            "ParamName": "_LengthwiseBrightness",
+            "ParamHash": 428,
+            "UseAtmoCurve": false,
+            "AtmoCurveType": "Base",
+            "AtmoMultiplierCurve": {
+              "keys": [],
+              "length": 0,
+              "preWrapMode": "PingPong",
+              "postWrapMode": "PingPong"
+            },
+            "UseThrottleCurve": true,
+            "ThrottleCurveType": "Multiply",
+            "ThrottleMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": "None",
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": "None",
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": "ClampForever",
+              "postWrapMode": "ClampForever"
+            },
+            "isDirty": false
+          },
+          {
+            "Value": 1.0,
+            "ParamName": "_Falloff",
+            "ParamHash": 394,
+            "UseAtmoCurve": false,
+            "AtmoCurveType": "Base",
+            "AtmoMultiplierCurve": {
+              "keys": [],
+              "length": 0,
+              "preWrapMode": "PingPong",
+              "postWrapMode": "PingPong"
+            },
+            "UseThrottleCurve": true,
+            "ThrottleCurveType": "Multiply",
+            "ThrottleMultiplierCurve": {
+              "keys": [
+                {
+                  "time": 0.0,
+                  "value": 0.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": "None",
+                  "tangentMode": 34
+                },
+                {
+                  "time": 1.0,
+                  "value": 1.0,
+                  "inTangent": 1.0,
+                  "outTangent": 1.0,
+                  "inWeight": 0.0,
+                  "outWeight": 0.0,
+                  "weightedMode": "None",
+                  "tangentMode": 34
+                }
+              ],
+              "length": 2,
+              "preWrapMode": "ClampForever",
+              "postWrapMode": "ClampForever"
+            },
+            "isDirty": false
+          }
+        ]
+      }
+    ]
+  }
+}

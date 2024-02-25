@@ -1,0 +1,4 @@
+:science #tNode_3v_hydrogen_01 {
+  UnlockedPartsIDs +: [ "spark_mpd_xs_v2","spark_mpd_sm_v2","spark_mpd_md_v2","spark_0v_vasimr","spark_0v_inline_lithium_1x1","spark_0v_inline_lithium_1x2","spark_0v_inline_lithium_1x4","spark_0v_radial_lithium","spark_1v_inline_lithium_1x1","spark_1v_inline_lithium_1x2","spark_1v_radial_lithium","spark_2v_inline_lithium_1x1","spark_2v_inline_lithium_1x2" ];
+  UnlockedPartsIDs -: [ "" ];
+}

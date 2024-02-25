@@ -1,0 +1,4 @@
+:science #tNode_1v_xenon {
+  UnlockedPartsIDs +: [ "spark_spt100","spark_x2","spark_x3","spark_x4","spark_ds4g1","spark_0v_inline_argon_1x1","spark_0v_inline_argon_1x2","spark_0v_inline_argon_1x4","spark_1v_inline_argon_1x1","spark_1v_inline_argon_1x2","spark_1v_inline_argon_1x4","spark_2v_inline_argon_1x1","spark_2v_inline_argon_1x2","spark_2v_inline_argon_1x4","" ];
+  UnlockedPartsIDs -: [ "" ];
+}
