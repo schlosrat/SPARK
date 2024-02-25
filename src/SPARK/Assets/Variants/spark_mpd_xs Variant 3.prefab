@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1279819924646179338
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1811816900270453530, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811816900270453530, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1811816900270453530, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5377016017605798876, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: dataEngine.engineModes.Array.data[0].propellant.mixtureName
+      value: LithiumEC
+      objectReference: {fileID: 0}
+    - target: {fileID: 5926728288591153140, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_Name
+      value: spark_mpd_xs Variant 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.attachRules.allowSrfAttach
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.serializedPartModules.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.attachNodes.Array.data[2].position.y
+      value: -0.54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.serializedPartModules.Array.data[3].Name
+      value: PartComponentModule_Gimbal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.serializedPartModules.Array.data[4].Name
+      value: PartComponentModule_Fairing
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.serializedPartModules.Array.data[3].ModuleData.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.serializedPartModules.Array.data[4].ModuleData.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.serializedPartModules.Array.data[3].ModuleData.Array.data[0].Name
+      value: Data_Gimbal
+      objectReference: {fileID: 0}
+    - target: {fileID: 6702801747815718460, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: core.data.serializedPartModules.Array.data[4].ModuleData.Array.data[0].Name
+      value: Data_Fairing
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7270368610665136730, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5926728288591153140, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4530710733432643118}
+  m_SourcePrefab: {fileID: 100100000, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+--- !u!1 &4899109949520262654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5926728288591153140, guid: d5f2f9c05fe7e5d49a32413c4bcdb3e9, type: 3}
+  m_PrefabInstance: {fileID: 1279819924646179338}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4530710733432643118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4899109949520262654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 350178566, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _dataFairing:
+    FloatingNodeSize: 1
+    FloatingAttachNodeTag: bottom
+    FloatingNodePosition: {x: 0, y: 0, z: 0}
+    FloatingNodeDirection: {x: 0, y: -1, z: 0}
+    FloatingNodeIsMultiJoint: 0
+    FloatingNodeMultiJointMaxCount: 3
+    FloatingNodeMultiJointOffset: 1
+    FairingNode: top
+    NoseTip: 0.5
+    EdgeWarp: 0.02
+    AberrantNormalLimit: 45
+    LocalUpAxis: {x: 0, y: -1, z: 0}
+    Pivot: {x: 0, y: 0, z: 0}
+    BaseModelTransformName: Base
+    CapRadius: 0.375
+    BaseRadius: 0.3125
+    CloseRadius: 0.375
+    MaxRadius: 6
+    SnapThreshold: 0.25
+    CreateShellColliders: 0
+    NumberOfCollidersPerCrossSection: 12
+    MinHeightRadiusRatio: 0.07
+    CrossSectionHeightMin: 0.3
+    CrossSectionHeightMax: 0.54
+    AerodynamicallyShieldContents: 0
+    ConeSweepRays: 120
+    ConeSweepPrecision: 10
+    AmountOfCollidersPerArc: 1
+    ShouldCapOnAutoGenerate: 0
+    IsCapped: 0
+    IsShroud: 1
+    MassAreaRatio: 0
+    FairingSideCount: 24
+    FairingLengthSnapIncrement: 0.125
+    FairingRadiusSnapIncrement: 0.125
+    FairingSmoothingAngle: 35
+    FairingThickness: 0.025
+    FairingStartHeight: 0
+    AllowConstructionTypeChange: 1
+    AllowFloatingNodeChange: 1
+    DefaultFairingEnabledToggle: 1
+    DefaultAutoConstruction: 1
+    DefaultDeployType: 1
+    DefaultFloatingNodeState: 1
+    LengthEditMinimum: 0
+    LengthEditMaximum: 0.001
+    LengthEditDefault: 1
+    StageToggleDefault: 0
+    MaxAutoFairingTargetRadius: -1
+    MinAutoFairingTargetRadius: -1
+    CrossSections: []
+    MassModifierAmount: 0
+    DragCubeIndex: -1
+  ClosedColliders: []
+  NodeRings: []
+  Panels: []
+  NumberOfCollidersPerArc: 0

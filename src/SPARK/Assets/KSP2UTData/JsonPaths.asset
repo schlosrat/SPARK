@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87a7c8ca6df943af9ea67de238f088e6, type: 3}
+  m_Name: JsonPaths
+  m_EditorClassIdentifier: 
+  Keys:
+  - spark_spt100
+  - spark_ds4g1
+  - spark_x2 Variant
+  - spark_spt100 Variant
+  - spark_x2
+  - spark_x3
+  - spark_x4
+  - spark_mpd_xs
+  - spark_mpd_xs_v2
+  - spark_mpd_sm_v2
+  - spark_mpd_md_v2
+  - spark_0v_vasimr
+  - spark_0v_inline_argon_1x1
+  - spark_0v_inline_lithium_1x1
+  - spark_0v_inline_lithium_1x2
+  - spark_0v_inline_lithium_1x4
+  - spark_1v_inline_lithium_1x1
+  - spark_0v_radial_lithium
+  - spark_1v_inline_lithium_1x2
+  - spark_2v_inline_lithium_1x1
+  - spark_1v_radial_lithium
+  - spark_2v_inline_lithium_1x2
+  Values:
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'
+  - '%NAME%.json'

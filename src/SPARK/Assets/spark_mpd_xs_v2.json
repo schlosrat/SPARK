@@ -1,0 +1,889 @@
+{
+  "version": 0.3,
+  "useExternal": false,
+  "data": {
+    "partName": "spark_mpd_xs_v2",
+    "author": "schlosrat",
+    "category": "Engine",
+    "family": "0144-Lithium",
+    "childStageOffset": 0,
+    "cost": 100,
+    "crewCapacity": 0,
+    "stageOffset": 0,
+    "isCompound": false,
+    "sizeCategory": "XS",
+    "stageType": "LiquidEngine",
+    "resourceCosts": [],
+    "tags": "(mpd1 deep drive efficient engine ion probe thruster vacuum lithium",
+    "stagingIconAssetAddress": "Staging-Engines/Staging-ICO-Xenons.png",
+    "PartSizeDiameter": 0.625,
+    "angularDrag": 2.0,
+    "breakingForce": 200.0,
+    "breakingTorque": 200.0,
+    "buoyancy": 0.5,
+    "buoyancyUseSine": false,
+    "coLiftOffset": {
+      "x": 0.0,
+      "y": -0.19,
+      "z": 0.0
+    },
+    "coMassOffset": {
+      "x": 0.0,
+      "y": -0.19,
+      "z": 0.0
+    },
+    "coPressureOffset": {
+      "x": 0.0,
+      "y": -0.19,
+      "z": 0.0
+    },
+    "coBuoyancy": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "coDisplacement": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "crashTolerance": 10.0,
+    "explosionPotential": 0.5,
+    "fuelCrossFeed": true,
+    "heatConductivity": 0.12,
+    "mass": 0.33,
+    "maxTemp": 1000.0,
+    "attachRules": {
+      "stack": true,
+      "srfAttach": true,
+      "allowStack": true,
+      "allowSrfAttach": true,
+      "allowCollision": false,
+      "allowDock": false,
+      "allowRotate": false,
+      "allowRoot": false
+    },
+    "attachNodes": [
+      {
+        "nodeID": "top",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": true,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": false,
+        "isRigid": true,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
+        "nodeID": "srfAttach",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Surface",
+        "attachMethod": "HINGE_JOINT",
+        "IsMultiJoint": true,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": false,
+        "isRigid": true,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      },
+      {
+        "nodeID": "bottom",
+        "NodeSymmetryGroupID": "",
+        "nodeType": "Stack",
+        "attachMethod": "FIXED_JOINT",
+        "IsMultiJoint": true,
+        "MultiJointMaxJoint": 3,
+        "MultiJointRadiusOffset": 0.0,
+        "MultiJointOnSingleAxis": false,
+        "SingleJointAxis": "X",
+        "MultiJointFullBreakStrength": false,
+        "position": {
+          "x": 0.0,
+          "y": -0.54,
+          "z": 0.0
+        },
+        "orientation": {
+          "x": 0.0,
+          "y": -1.0,
+          "z": 0.0
+        },
+        "size": 1,
+        "visualSize": 1.0,
+        "isResourceCrossfeed": false,
+        "isRigid": true,
+        "angularStrengthMultiplier": 0.0,
+        "contactArea": 0.0,
+        "overrideDragArea": 0.0,
+        "isCompoundJoint": false
+      }
+    ],
+    "resourceContainers": [],
+    "AllowKinematicPhysicsIfIntersectTerrain": false,
+    "serializedPartModules": [
+      {
+        "Name": "PartComponentModule_Color",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Color",
+            "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Color, Assembly-CSharp",
+              "Base": {
+                "ContextKey": "Base",
+                "storedValue": {
+                  "r": 0.654902,
+                  "g": 0.6666667,
+                  "b": 0.6862745,
+                  "a": 1.0
+                }
+              },
+              "Accent": {
+                "ContextKey": "Accent",
+                "storedValue": {
+                  "r": 0.4117647,
+                  "g": 0.443137258,
+                  "b": 0.5176471,
+                  "a": 1.0
+                }
+              },
+              "ModuleType": "KSP.Modules.Module_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Color, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Drag",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Drag",
+            "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Drag, Assembly-CSharp",
+              "BodyLiftEnabled": true,
+              "DragEnabled": true,
+              "bodyLiftMultiplier": 1.0,
+              "cubes": [],
+              "weightedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedExposedArea": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDrag": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDragMultiplier": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedDepth": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "weightedCenter": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "weightedSize": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "isDragCubeRotated": false,
+              "dragCubeRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 1.0
+              },
+              "UpdateExposedArea": false,
+              "DragForceDirection": {
+                "ContextKey": "DragForceDirection",
+                "storedValue": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "DragForceMagnitude": {
+                "ContextKey": "DragForceMagnitude",
+                "storedValue": 0.0
+              },
+              "LiftForceDirection": {
+                "ContextKey": "LiftForceDirection",
+                "storedValue": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              "LiftForceMagnitude": {
+                "ContextKey": "LiftForceMagnitude",
+                "storedValue": 0.0
+              },
+              "ReferenceArea": {
+                "ContextKey": "ReferenceArea",
+                "storedValue": 0.0
+              },
+              "ExposedArea": {
+                "ContextKey": "ExposedArea",
+                "storedValue": 0.0
+              },
+              "TotalArea": {
+                "ContextKey": "TotalArea",
+                "storedValue": 0.0
+              },
+              "ModuleType": "KSP.Modules.Module_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Drag, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Engine",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Engine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Engine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Engine",
+            "ModuleType": "KSP.Modules.Module_Engine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Engine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Engine, Assembly-CSharp",
+              "IndependentThrottle": {
+                "ContextKey": "IndependentThrottle",
+                "storedValue": false
+              },
+              "IndependentThrottlePercentage": {
+                "ContextKey": "IndependentThrottlePercentage",
+                "storedValue": 0.0
+              },
+              "EngineModeString": {
+                "ContextKey": "EngineModeString",
+                "storedValue": ""
+              },
+              "activeEngineMode": {
+                "ContextKey": "activeEngineMode",
+                "storedValue": "default"
+              },
+              "EngineStatePriorChangeMode": "Off",
+              "EngineChangingToMode": 0,
+              "EngineAutoSwitchMode": {
+                "ContextKey": "EngineAutoSwitchMode",
+                "storedValue": true
+              },
+              "thrustPercentage": {
+                "ContextKey": "thrustPercentage",
+                "storedValue": 100.0
+              },
+              "FinalThrustValue": 0.0,
+              "RealISPValue": 0.0,
+              "StatusString": {
+                "ContextKey": "StatusString",
+                "storedValue": "Nominal"
+              },
+              "StatusISPString": {
+                "ContextKey": "StatusISPString",
+                "storedValue": 0.0
+              },
+              "stagingOn": {
+                "ContextKey": "stagingOn",
+                "storedValue": true
+              },
+              "staged": false,
+              "Flameout": false,
+              "EngineIgnited": false,
+              "EngineShutdown": false,
+              "HeatProduced": {
+                "ContextKey": "HeatProduced",
+                "storedValue": 0.0
+              },
+              "currentThrottle": 0.0,
+              "thrustCurveDisplay": 1.0,
+              "thrustCurveRatio": 1.0,
+              "EngineSpool": 0.0,
+              "ThrustDirRelativePartWorldSpace": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "currentEngineModeIndex": 0,
+              "engineModes": [
+                {
+                  "engineID": "Engine",
+                  "EngineDisplayName": "Engine",
+                  "thrustVectorTransformName": "thrustTransform",
+                  "ThrustTransformNamesMultipliers": [],
+                  "throttleLocked": false,
+                  "ignitionThreshold": 0.1,
+                  "clampPropReceived": false,
+                  "clampPropReceivedMinLowerAmount": 0.999,
+                  "allowRestart": true,
+                  "allowShutdown": true,
+                  "shieldedCanActivate": true,
+                  "atmosphereCurve": {
+                    "fCurve": {
+                      "keys": [
+                        {
+                          "time": 0.0,
+                          "value": 2600.0,
+                          "inTangent": 0.0,
+                          "outTangent": 0.0,
+                          "inWeight": 0.333333343,
+                          "outWeight": 0.333333343,
+                          "weightedMode": "None",
+                          "tangentMode": 136
+                        },
+                        {
+                          "time": 1.0,
+                          "value": 26.0,
+                          "inTangent": -485.182526,
+                          "outTangent": -485.182526,
+                          "inWeight": 0.244999945,
+                          "outWeight": 0.333333343,
+                          "weightedMode": "None",
+                          "tangentMode": 0
+                        },
+                        {
+                          "time": 1.2,
+                          "value": 0.001,
+                          "inTangent": 0.0,
+                          "outTangent": 0.0,
+                          "inWeight": 0.333333343,
+                          "outWeight": 0.333333343,
+                          "weightedMode": "None",
+                          "tangentMode": 136
+                        }
+                      ],
+                      "length": 3,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  },
+                  "useThrustCurve": false,
+                  "thrustCurve": {
+                    "fCurve": {
+                      "keys": [],
+                      "length": 0,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  },
+                  "disableUnderwater": true,
+                  "nonThrustMotor": false,
+                  "minThrust": 0.0,
+                  "maxThrust": 47.3,
+                  "engineType": "Electric",
+                  "propellant": {
+                    "mixtureName": "LithiumEC",
+                    "mixtureMultiplier": 1.0,
+                    "ignoreForThrustCurve": false,
+                    "ingredientOverrides": [
+                      {
+                        "name": "ElectricCharge",
+                        "unitsPerRecipeUnit": 215622.0,
+                        "flowMode": "STAGE_PRIORITY_FLOW"
+                      }
+                    ]
+                  },
+                  "useEngineResponseTime": false,
+                  "engineAccelerationSpeed": 0.2,
+                  "engineDecelerationSpeed": 0.1,
+                  "GenerateHeat": false,
+                  "HeatAtmosphereCurve": {
+                    "fCurve": {
+                      "keys": [],
+                      "length": 0,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  },
+                  "NormalizeHeatForFlow": true,
+                  "exhaustDamage": true,
+                  "exhaustDamageRadiusMultiplier": 0.4,
+                  "ExhaustDamageValue": 0.0,
+                  "exhaustDamageLogEvent": false,
+                  "exhaustSplashbackDamage": true,
+                  "exhaustDamageFalloffPower": 1.0,
+                  "exhaustDamageSplashbackFallofPower": 2.5,
+                  "exhaustDamageSplashbackMult": 0.0,
+                  "exhaustDamageSplashbackMaxMutliplier": 1.0,
+                  "exhaustDamageDistanceOffset": 0.0,
+                  "exhaustDamageMaxRange": 10.0,
+                  "exhaustDamageMaxMutliplier": 100.0,
+                  "exhaustShockwave": false,
+                  "exhaustShockwaveLogEvent": false,
+                  "exhaustShockwaveInterval": -1.0,
+                  "exhaustShockwaveMultiplier": 1.0,
+                  "exhaustShockwaveFalloffPower": 1.0,
+                  "exhaustShockwaveDistanceOffset": 0.0,
+                  "exhaustShockwaveMaxRange": 10.0,
+                  "exhaustShockwaveMaxMultiplier": 100.0,
+                  "throttleUseAlternate": false,
+                  "throttleResponseRate": -1.0,
+                  "throttleIgniteLevelMult": 1.0,
+                  "throttleStartupMult": 1.0,
+                  "throttleStartedMult": 1.0,
+                  "throttleInstantShutdown": true,
+                  "throttleShutdownMult": 100.0,
+                  "throttleInstant": false,
+                  "throttlingBaseRate": 10.0,
+                  "throttlingBaseClamp": 1.1,
+                  "throttlingBaseDivisor": 0.2,
+                  "atmChangeFlow": false,
+                  "atmCurve": {
+                    "fCurve": {
+                      "keys": [],
+                      "length": 0,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  },
+                  "useAtmCurve": false,
+                  "velCurve": {
+                    "fCurve": {
+                      "keys": [],
+                      "length": 0,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  },
+                  "useVelCurve": false,
+                  "CLAMP": 1E-05,
+                  "atmCurveIsp": {
+                    "fCurve": {
+                      "keys": [],
+                      "length": 0,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  },
+                  "useAtmCurveIsp": false,
+                  "velCurveIsp": {
+                    "fCurve": {
+                      "keys": [],
+                      "length": 0,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  },
+                  "useVelCurveIsp": false,
+                  "flameoutBar": 0.07,
+                  "flowMultCap": 3.40282347E+38,
+                  "flowMultCapSharpness": 2.0,
+                  "multFlow": 1.0,
+                  "multIsp": 1.0,
+                  "engineSpoolTime": 2.0,
+                  "engineSpoolIdle": 0.05,
+                  "ModeExitWaitTime": 0.0,
+                  "ModeExitRunningWaitTime": 0.0,
+                  "ModeEnterWaitTime": 0.0,
+                  "ModeEnterRunningWaitTime": 0.0,
+                  "DeactivateEngineWaitTime": 0.0,
+                  "ActivateEngineWaitTime": 0.0,
+                  "RunAnimationOnActivateDeactivate": false,
+                  "useThrottleIspCurve": false,
+                  "throttleIspCurveAtmStrength": {
+                    "fCurve": {
+                      "keys": [],
+                      "length": 0,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  },
+                  "throttleIspCurve": {
+                    "fCurve": {
+                      "keys": [],
+                      "length": 0,
+                      "preWrapMode": "ClampForever",
+                      "postWrapMode": "ClampForever"
+                    },
+                    "_minTime": 3.40282347E+38,
+                    "_maxTime": -3.40282347E+38
+                  }
+                }
+              ],
+              "UseEmissive": true,
+              "EmissiveMaterialNames": [
+                "mpd_xs_v2_material"
+              ],
+              "EmissiveTemperatureCurve": {
+                "fCurve": {
+                  "keys": [
+                    {
+                      "time": 0.0,
+                      "value": 0.0,
+                      "inTangent": 1.0,
+                      "outTangent": 1.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    },
+                    {
+                      "time": 1.0,
+                      "value": 1.0,
+                      "inTangent": 1.0,
+                      "outTangent": 1.0,
+                      "inWeight": 0.0,
+                      "outWeight": 0.0,
+                      "weightedMode": "None",
+                      "tangentMode": 34
+                    }
+                  ],
+                  "length": 2,
+                  "preWrapMode": "ClampForever",
+                  "postWrapMode": "ClampForever"
+                },
+                "_minTime": 3.40282347E+38,
+                "_maxTime": -3.40282347E+38
+              },
+              "EmissiveLerpRateUp": 3.0,
+              "EmissiveLerpRateDown": 3.0,
+              "DeployedModeAnimationStateShortName": "OPENED",
+              "ModuleType": "KSP.Modules.Module_Engine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "State": "Off",
+              "IsOperational": false,
+              "DataType": "KSP.Modules.Data_Engine, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Gimbal",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Gimbal",
+            "ModuleType": "KSP.Modules.Module_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Gimbal, Assembly-CSharp",
+              "isEnabled": {
+                "ContextKey": "isEnabled",
+                "storedValue": true
+              },
+              "gimbalLimiter": {
+                "ContextKey": "gimbalLimiter",
+                "storedValue": 100.0
+              },
+              "enablePitch": {
+                "ContextKey": "enablePitch",
+                "storedValue": true
+              },
+              "enableYaw": {
+                "ContextKey": "enableYaw",
+                "storedValue": true
+              },
+              "enableRoll": {
+                "ContextKey": "enableRoll",
+                "storedValue": true
+              },
+              "IsAdvancedSettingsShown": {
+                "ContextKey": "IsAdvancedSettingsShown",
+                "storedValue": false
+              },
+              "gimbalTransformName": "gimbal",
+              "forceProceduralGimbaling": false,
+              "gimbalRange": 1.0,
+              "gimbalResponseSpeed": 10.0,
+              "useGimbalResponseSpeed": true,
+              "gimbalRangeXP": -1.0,
+              "gimbalRangeXN": -1.0,
+              "gimbalRangeYP": -1.0,
+              "gimbalRangeYN": -1.0,
+              "minRollOffset": 0.1,
+              "xMult": 1.0,
+              "yMult": 1.0,
+              "pitchValueName": "fPitch",
+              "flipAnimatedPitchAxis": false,
+              "yawValueName": "fYaw",
+              "flipAnimatedYawAxis": false,
+              "movementAudioThreshold": 0.1,
+              "ModuleType": "KSP.Modules.Module_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "DataType": "KSP.Modules.Data_Gimbal, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Name": "PartComponentModule_Fairing",
+        "ComponentType": "KSP.Sim.impl.PartComponentModule_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "BehaviourType": "KSP.Modules.Module_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+        "ModuleData": [
+          {
+            "Name": "Data_Fairing",
+            "ModuleType": "KSP.Modules.Module_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "DataType": "KSP.Modules.Data_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Data": null,
+            "DataObject": {
+              "$type": "KSP.Modules.Data_Fairing, Assembly-CSharp",
+              "FairingEnabled": {
+                "ContextKey": "FairingEnabled",
+                "storedValue": true
+              },
+              "FairingConstructionType": {
+                "ContextKey": "FairingConstructionType",
+                "storedValue": "CUSTOM"
+              },
+              "FloatingNodeEnabled": {
+                "ContextKey": "FloatingNodeEnabled",
+                "storedValue": true
+              },
+              "Length": {
+                "ContextKey": "Length",
+                "storedValue": -1.0
+              },
+              "DeployType": {
+                "ContextKey": "DeployType",
+                "storedValue": "Clamshellx4"
+              },
+              "EjectionForce": {
+                "ContextKey": "EjectionForce",
+                "storedValue": 100.0
+              },
+              "IsStagingEnabled": {
+                "ContextKey": "IsStagingEnabled",
+                "storedValue": true
+              },
+              "IsDeployed": {
+                "ContextKey": "IsDeployed",
+                "storedValue": false
+              },
+              "FloatingNodeSize": 1.0,
+              "FloatingAttachNodeTag": "bottom",
+              "FloatingNodePosition": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "FloatingNodeDirection": {
+                "x": 0.0,
+                "y": -1.0,
+                "z": 0.0
+              },
+              "FloatingNodeIsMultiJoint": false,
+              "FloatingNodeMultiJointMaxCount": 3,
+              "FloatingNodeMultiJointOffset": 1.0,
+              "FairingNode": "top",
+              "NoseTip": 0.5,
+              "EdgeWarp": 0.02,
+              "AberrantNormalLimit": 45.0,
+              "LocalUpAxis": {
+                "x": 0.0,
+                "y": -1.0,
+                "z": 0.0
+              },
+              "Pivot": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "BaseModelTransformName": "Base",
+              "CapRadius": 0.375,
+              "BaseRadius": 0.3125,
+              "CloseRadius": 0.375,
+              "MaxRadius": 6.0,
+              "SnapThreshold": 0.25,
+              "CreateShellColliders": false,
+              "NumberOfCollidersPerCrossSection": 12,
+              "MinHeightRadiusRatio": 0.07,
+              "CrossSectionHeightMin": 0.3,
+              "CrossSectionHeightMax": 0.54,
+              "AerodynamicallyShieldContents": false,
+              "ConeSweepRays": 120,
+              "ConeSweepPrecision": 10.0,
+              "AmountOfCollidersPerArc": 1,
+              "ShouldCapOnAutoGenerate": false,
+              "IsCapped": false,
+              "IsShroud": true,
+              "MassAreaRatio": 0.0,
+              "FairingSideCount": 24,
+              "FairingLengthSnapIncrement": 0.125,
+              "FairingRadiusSnapIncrement": 0.125,
+              "FairingSmoothingAngle": 35.0,
+              "FairingThickness": 0.025,
+              "FairingStartHeight": 0.0,
+              "AllowConstructionTypeChange": true,
+              "AllowFloatingNodeChange": true,
+              "DefaultFairingEnabledToggle": true,
+              "DefaultAutoConstruction": true,
+              "DefaultDeployType": "Shroud",
+              "DefaultFloatingNodeState": true,
+              "LengthEditMinimum": 0.0,
+              "LengthEditMaximum": 0.001,
+              "LengthEditDefault": 1.0,
+              "StageToggleDefault": false,
+              "MaxAutoFairingTargetRadius": -1,
+              "MinAutoFairingTargetRadius": -1,
+              "CrossSections": [],
+              "MassModifierAmount": 0.0,
+              "DragCubeIndex": -1,
+              "ModuleType": "KSP.Modules.Module_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "MassModifier": 0.0,
+              "DataType": "KSP.Modules.Data_Fairing, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "IsActiveInStagingProp": {
+                "ContextKey": null,
+                "storedValue": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "resourceSummary": {
+      "Consumes": [],
+      "Generates": [],
+      "Contains": []
+    },
+    "PAMModuleSortOverride": [],
+    "PAMModuleVisualsOverride": [],
+    "collisionVolumeBoundsScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "emissiveConstant": 0.0,
+    "maximumDrag": 0.2,
+    "minimumDrag": 0.1,
+    "physicsMode": "Full",
+    "inverseStageCarryover": true,
+    "skinMassPerArea": 0.0,
+    "bodyLiftOnlyUnattachedLift": false,
+    "bodyLiftOnlyAttachName": "",
+    "maxLength": -1,
+    "radiatorHeadroom": 0.75,
+    "radiatorMax": 0.35,
+    "skinMaxTemp": 800.0,
+    "skinInternalConductionMult": 1.0,
+    "thermalMassModifier": 1.0,
+    "buoyancyUseCubeNamed": "",
+    "oabEditorCategory": "VAB",
+    "partType": "Rocket",
+    "PreferredOrientation": "NONE",
+    "MirrorTechnique": "RotationYZ",
+    "CanSuggestOrientation": false,
+    "PickUpPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "PickupRotationPointOffset": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "Title": "spark_mpd_xs_v2",
+    "Subtitle": null,
+    "Manufacturer": null,
+    "Description": null
+  },
+  "modules": null,
+  "legacyModules": ""
+}

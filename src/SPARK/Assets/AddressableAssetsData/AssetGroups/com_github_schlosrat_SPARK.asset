@@ -1,0 +1,329 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: com_github_schlosrat_SPARK
+  m_EditorClassIdentifier: 
+  m_GroupName: com_github_schlosrat_SPARK
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 455cf86a3d971fc4b87513c08fc86e3f
+  m_SerializeEntries:
+  - m_GUID: 8ac54ca40ca306943ba8c943e0a4425a
+    m_Address: spark_0v_inline_argon_1x1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09990b35d2609984faf3d60bd094800c
+    m_Address: spark_0v_inline_lithium_1x1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b42f391c4af4ba46a35c7358b1a2f67
+    m_Address: spark_0v_inline_lithium_1x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3486c7dbe16043a4ea5a55535583926f
+    m_Address: spark_0v_inline_lithium_1x4.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e61657cbab14126429aa2174b78b2ff6
+    m_Address: spark_0v_radial_lithium.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50a4c10cffb0c3241a4a46b8540e2a28
+    m_Address: spark_0v_vasimr.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37b604eb00435ff43865f9096e7180b4
+    m_Address: spark_1v_inline_lithium_1x1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 305c1f643ccb4574ba2d2b0d886dca76
+    m_Address: spark_1v_inline_lithium_1x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 001d61131ee9e0d43ba5d0465033a27e
+    m_Address: spark_1v_radial_lithium.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d61753c5ca6250145ae573a6440af4bd
+    m_Address: spark_2v_inline_lithium_1x1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d05d5247614998c4380fcbb51be6a07f
+    m_Address: spark_2v_inline_lithium_1x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 108f80b6a36137846acd2d14768d124d
+    m_Address: spark_ds4g1.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9779b11caf97ef48a017b7aea5fe013
+    m_Address: spark_mpd_md_v2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69902d5e93ece9d4eb7c089d67f9fc1d
+    m_Address: spark_mpd_sm_v2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2bdda34ce2455145b0bae609613a37a
+    m_Address: spark_spt100.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 739ee298abfa22e4494b0454ac6cd0b9
+    m_Address: spark_mpd_xs_v2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2929a3869cb92944abf6e985e13c7f36
+    m_Address: spark_spt100.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fa689677b24f78f4f81798c4144fef84
+    m_Address: spark_x2.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a6d4a78775df134bb30f12146636de9
+    m_Address: spark_x3.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a9b4b210282e89342b2aa30850bb3d18
+    m_Address: spark_x4.json
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - parts_data
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b81960b6b8552d04d9734c63a3bc20aa
+    m_Address: spark_0v_vasimr_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d7e5b63fa60095644b443cdf3f8040e3
+    m_Address: spark_ds4g1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7c46dc51865b904babc8f9a5605601c
+    m_Address: spark_ds4g1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10b58a7c4463b7e449703500a44d2534
+    m_Address: spark_mpd_md_v2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35ee9c7b090dcfc4f9ac323d901a37d4
+    m_Address: spark_mpd_md_v2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fd5a1818c64d7844a8a5b48506b2bcea
+    m_Address: spark_mpd_sm_v2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 108a376800517264d8729c6de40752ad
+    m_Address: spark_mpd_sm_v2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a7956ae1e5134548846ed5026ff4876
+    m_Address: spark_mpd_xs_v2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a045402549673524e9a21a751bfd1556
+    m_Address: spark_mpd_xs_v2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cb2c861d5f530b48b6f1456e8948b57
+    m_Address: spark_spt100_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 083c1af87c512b74dbe7d40f83f7d98a
+    m_Address: spark_0v_vasimr.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd8ee3c17c54c93408226928bba3dfd4
+    m_Address: spark_x2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b55e5026c1e3607478997ee726ba7418
+    m_Address: spark_x2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45bc4435294358548bdfd9e7b311b89d
+    m_Address: spark_x3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b265ac1fcc28a64096e5c56b76e0dda
+    m_Address: spark_x3_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d884e360bae92c84d9df00e93929afec
+    m_Address: spark_x4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 790b638b8b8bf8b49a5fc79175726b1e
+    m_Address: spark_x4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63857523ab01d204fae10b8155086f84
+    m_Address: spark_0v_inline_lithium_1x1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 877d2e258b0d0b647926bfae1ddfbfe3
+    m_Address: spark_0v_inline_lithium_1x1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c954b950d56f83c469cb10339c3cbb9c
+    m_Address: spark_1v_inline_lithium_1x1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9d48a2e1fd23eb4dac137fa2ee20977
+    m_Address: spark_1v_inline_lithium_1x1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 00bcfc4db585e06448763132a37c9fac
+    m_Address: spark_2v_inline_lithium_1x1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f6579a2cdb942547b4a2d91fe5eb28d
+    m_Address: spark_2v_inline_lithium_1x1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fccf3f04ec075444e8d3501fbc834543
+    m_Address: spark_0v_inline_lithium_1x2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ae3dba5b07c15c45863c3482ca8972b
+    m_Address: spark_0v_inline_lithium_1x2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 074f49ec96305da41b30dde62cc2978a
+    m_Address: spark_1v_inline_lithium_1x2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3be4000328bbf044a85ddea7e041f1e9
+    m_Address: spark_1v_inline_lithium_1x2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f4baf59f1214c341be354924eca333a
+    m_Address: spark_2v_inline_lithium_1x2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8665ecf645af7f94cbc7246e6f42a83b
+    m_Address: spark_2v_inline_lithium_1x2_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a39d81300507aa48855e272071faf2f
+    m_Address: spark_0v_inline_lithium_1x4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cf35af8be6586249a5abc8a0a28f9db
+    m_Address: spark_0v_inline_lithium_1x4_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 351660d521055b64397cffb4ac5b872c
+    m_Address: spark_0v_radial_lithium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cefa042454af4e0499f57bb7a1883057
+    m_Address: spark_0v_radial_lithium_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: add3fc897eb8d97488629f3dc5c41ddb
+    m_Address: spark_1v_radial_lithium.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 860d9f564a493954fbc894c7c069f8ab
+    m_Address: spark_1v_radial_lithium_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d5eff7f53606a3449fdcc9eb5cdbb77
+    m_Address: spark_0v_inline_argon_1x1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 377667875f8e94042a83144bd3aff78a
+    m_Address: spark_0v_inline_argon_1x1_icon.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10d78a4fc66922041978451c9e35c54d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4124015c32a22664080c923f0c3fc3b5, type: 2}
+    - {fileID: 11400000, guid: 8382c9c28c89a2849b3c803f12a1a5b6, type: 2}
