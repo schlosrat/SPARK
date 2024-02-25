@@ -57,11 +57,11 @@ ExportedObj/
 # Unity temp files and other dross
 /PackageCache/
 UnityTempFile*
-src/TNO/Assets/KSP2UnityTools
-src/TNO/Library
-src/TNO/Logs
-src/TNO/Packages
-src/TNO/Temp
+src/SPARK/Assets/KSP2UnityTools
+src/SPARK/Library
+src/SPARK/Logs
+src/SPARK/Packages
+src/SPARK/Temp
 *.bundle
 
 # Unity3D generated meta files
